@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>교육운영백서 ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- 상단 헤더 -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <div class="logo" onclick="goHome()">
+                <span class="logo-emoji">📖</span>
+                <span class="logo-text">교육운영백서</span>
+            </div>
+            <div class="header-search" id="headerSearch">
+                <div class="header-search-box">
+                    <input type="text" id="headerSearchInput" placeholder="궁금한 내용을 검색하세요" autocomplete="off">
+                    <button onclick="performSearch(document.getElementById('headerSearchInput').value)">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <button class="home-btn-header" onclick="goHome()" title="홈으로">
+                <i class="fas fa-home"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- 메인 히어로 섹션 -->
+    <section class="hero" id="heroSection">
+        <div class="hero-bg-deco"></div>
+        <div class="hero-content">
+            <span class="hero-emoji">📚</span>
+            <h1 class="hero-title">교육운영백서</h1>
+            <p class="hero-subtitle">교육운영에 필요한 모든 정보를 한 곳에서 찾아보세요 ✨</p>
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="mainSearchInput" placeholder="검색어를 입력하세요 (예: 출입, 강의장, 간식)" autocomplete="off">
+                    <button onclick="performSearch(document.getElementById('mainSearchInput').value)">
+                        검색
+                    </button>
+                </div>
+                <div class="search-suggestions" id="searchSuggestions"></div>
+            </div>
+            <div class="popular-keywords">
+                <span class="keyword-label">✦ 인기 검색어</span>
+                <button onclick="performSearch('출입')">출입</button>
+                <button onclick="performSearch('강의장')">강의장</button>
+                <button onclick="performSearch('ISC 예약')">ISC 예약</button>
+                <button onclick="performSearch('간식')">간식</button>
+                <button onclick="performSearch('주차')">주차</button>
+                <button onclick="performSearch('네트워크')">네트워크</button>
+                <button onclick="performSearch('맛집')">맛집</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 카테고리 네비게이션 -->
+    <section class="categories" id="categorySection">
+        <div class="container">
+            <h2 class="section-title">카테고리별 안내</h2>
+            <p class="section-subtitle">필요한 정보를 카테고리에서 바로 찾아보세요</p>
+            <div class="category-grid">
+                <div class="category-card" onclick="showCategory('w-building')">
+                    <span class="category-emoji">🏢</span>
+                    <h3>W동</h3>
+                    <p>출입 · 교통 · 강의장 · 보안 · 네트워크</p>
+                </div>
+                <div class="category-card" onclick="showCategory('isc')">
+                    <span class="category-emoji">📋</span>
+                    <h3>ISC</h3>
+                    <p>예약 · 중식 · 케이터링 · 장비</p>
+                </div>
+                <div class="category-card" onclick="showCategory('meeting-room')">
+                    <span class="category-emoji">🚪</span>
+                    <h3>지하공용회의실 / CampPark</h3>
+                    <p>회의실 · CampPark 이용</p>
+                </div>
+                <div class="category-card" onclick="showCategory('snack-goods')">
+                    <span class="category-emoji">🍪</span>
+                    <h3>간식 및 굿즈 업체</h3>
+                    <p>간식 · 굿즈 추천 업체</p>
+                </div>
+                <div class="category-card" onclick="showCategory('magok-life')">
+                    <span class="category-emoji">🗺️</span>
+                    <h3>마곡 생활안내</h3>
+                    <p>맛집 · 카페 · 편의시설</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 검색 결과 영역 -->
+    <section class="search-results" id="searchResults" style="display:none;">
+        <div class="container">
+            <div class="results-header">
+                <h2>🔍 <span id="searchQuery"></span> 검색 결과 <span id="resultCount" class="result-count"></span></h2>
+                <button class="back-btn" onclick="goHome()"><i class="fas fa-arrow-left"></i> 홈으로</button>
+            </div>
+            <div id="resultsList" class="results-list"></div>
+        </div>
+    </section>
+
+    <!-- 상세 콘텐츠 영역 -->
+    <section class="detail-view" id="detailView" style="display:none;">
+        <div class="container">
+            <div class="detail-layout">
+                <aside class="detail-sidebar" id="detailSidebar"></aside>
+                <main class="detail-content" id="detailContent"></main>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 교육운영백서 · 교육운영팀 💜</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -588,22 +588,39 @@ const data = [
         content: `
             <h1>🗺️ 마곡 생활안내</h1>
 
-            <h2>🍽️ 주변 맛집 추천</h2>
+            <h2>📎 참고 자료</h2>
+            <p>LG사이언스파크 생활에 대한 더 자세한 안내는 아래 생활백서를 참고하세요.</p>
+            <div class="info-box">
+                <i class="fas fa-file-pdf"></i>
+                <div>
+                    <a href="files/★LG사이언스파크 생활백서_250716.pdf" target="_blank" style="color:#6C63FF;font-weight:600;text-decoration:underline;font-size:15px;">📄 ★LG사이언스파크 생활백서 다운로드</a>
+                </div>
+            </div>
+
+            <h2>🍽️ 마곡 맛집 추천</h2>
+            <p>마곡나루역·발산역 근처 20~30대에게 인기 많은 맛집이에요!</p>
             <table>
-                <tr><th>식당명</th><th>종류</th><th>가격대</th><th>거리</th><th>특징</th></tr>
-                <tr><td>마곡국밥</td><td>한식</td><td>8,000~12,000원</td><td>도보 5분</td><td>든든한 한끼</td></tr>
-                <tr><td>봉추찜닭</td><td>한식</td><td>10,000~15,000원</td><td>도보 7분</td><td>단체 식사 가능</td></tr>
-                <tr><td>마곡파스타</td><td>양식</td><td>12,000~18,000원</td><td>도보 8분</td><td>분위기 좋음 ✨</td></tr>
-                <tr><td>스시마곡</td><td>일식</td><td>15,000~25,000원</td><td>도보 10분</td><td>회식 추천</td></tr>
-                <tr><td>마곡화로구이</td><td>고기</td><td>15,000~20,000원</td><td>도보 6분</td><td>단체석 가능</td></tr>
+                <tr><th>식당명</th><th>종류</th><th>가격대</th><th>위치</th><th>특징</th></tr>
+                <tr><td>리틀넥 마곡</td><td>브런치/양식</td><td>15,000~25,000원</td><td>마곡나루역 도보 5분</td><td>인스타 감성 브런치, 파스타 맛집 📸</td></tr>
+                <tr><td>로우앤슬로우</td><td>수제버거</td><td>12,000~18,000원</td><td>마곡나루역 도보 3분</td><td>수제버거 명소, 점심 웨이팅 있음 🍔</td></tr>
+                <tr><td>온기정</td><td>한식 덮밥</td><td>10,000~14,000원</td><td>마곡나루역 도보 5분</td><td>건강한 한 끼, 직장인 인기 ✨</td></tr>
+                <tr><td>몽중헌 마곡점</td><td>중식</td><td>12,000~20,000원</td><td>마곡나루역 도보 7분</td><td>딤섬·짬뽕 맛집, 단체석 가능</td></tr>
+                <tr><td>수담</td><td>한정식</td><td>13,000~18,000원</td><td>발산역 도보 5분</td><td>가성비 한정식, 깔끔한 인테리어</td></tr>
+                <tr><td>텐동요시</td><td>일식 텐동</td><td>10,000~15,000원</td><td>마곡나루역 도보 4분</td><td>바삭한 튀김덮밥, 혼밥 추천 🍤</td></tr>
+                <tr><td>더플레이트</td><td>양식/스테이크</td><td>15,000~30,000원</td><td>마곡나루역 도보 6분</td><td>분위기 좋은 데이트 맛집 🥩</td></tr>
+                <tr><td>포베이 마곡점</td><td>베트남 쌀국수</td><td>9,000~13,000원</td><td>마곡나루역 도보 3분</td><td>가벼운 점심, 깔끔한 쌀국수 🍜</td></tr>
             </table>
 
-            <h2>☕ 카페</h2>
+            <h2>☕ 카페 추천</h2>
+            <p>작업하기 좋고 분위기 있는 카페들이에요!</p>
             <table>
-                <tr><th>카페명</th><th>거리</th><th>특징</th></tr>
-                <tr><td>스타벅스 마곡점</td><td>도보 3분</td><td>넓은 좌석, 콘센트 多</td></tr>
-                <tr><td>투썸플레이스</td><td>도보 5분</td><td>케이크 맛집 🍰</td></tr>
-                <tr><td>블루보틀 마곡</td><td>도보 8분</td><td>스페셜티 커피</td></tr>
+                <tr><th>카페명</th><th>위치</th><th>특징</th></tr>
+                <tr><td>어니언 마곡점</td><td>마곡나루역 도보 5분</td><td>감성 베이커리 카페, 인스타 핫플 📸</td></tr>
+                <tr><td>블루보틀 마곡</td><td>마곡나루역 도보 8분</td><td>스페셜티 커피, 조용한 분위기 ☕</td></tr>
+                <tr><td>카페 레이어드 마곡</td><td>마곡나루역 도보 6분</td><td>넓은 공간, 대형 창문 뷰</td></tr>
+                <tr><td>스타벅스 마곡나루역점</td><td>마곡나루역 도보 1분</td><td>접근성 최고, 콘센트 많음 🔌</td></tr>
+                <tr><td>투썸플레이스 마곡점</td><td>마곡나루역 도보 4분</td><td>케이크 맛집, 미팅하기 좋음 🍰</td></tr>
+                <tr><td>노티드 마곡</td><td>마곡나루역 도보 5분</td><td>도넛 맛집, 선물용 도넛 추천 🍩</td></tr>
             </table>
 
             <h2>🏪 편의시설</h2>
@@ -613,28 +630,21 @@ const data = [
                 <li><strong>약국:</strong> 마곡온누리약국 (도보 3분)</li>
                 <li><strong>병원:</strong> 마곡메디컬센터 (도보 5분) - 내과, 치과, 정형외과</li>
                 <li><strong>우체국:</strong> 마곡우체국 (도보 7분)</li>
+                <li><strong>다이소:</strong> 다이소 마곡나루역점 (도보 3분) - 급한 물품 구매 🛒</li>
+                <li><strong>올리브영:</strong> 올리브영 마곡나루역점 (도보 4분) 💄</li>
             </ul>
 
             <h2>🌿 주변 공원 & 산책로</h2>
             <p>교육 사이 리프레시를 위해 가까운 공원을 방문해 보세요!</p>
             <ul>
-                <li><strong>서울식물원:</strong> 도보 15분, 온실과 야외 정원 (입장료 5,000원)</li>
-                <li><strong>마곡 서울식물원 호수공원:</strong> 도보 10분, 산책 코스</li>
+                <li><strong>서울식물원:</strong> 도보 15분, 온실과 야외 정원 (입장료 5,000원) 🌱</li>
+                <li><strong>서울식물원 호수공원:</strong> 도보 10분, 산책 & 사진 명소 📸</li>
                 <li><strong>W동 옥상 정원:</strong> 건물 내, 출입 가능 시간 09:00~18:00</li>
             </ul>
 
             <div class="info-box">
                 <i class="fas fa-map-marked-alt"></i>
                 <div>마곡 지역은 지속적으로 개발 중이므로, 신규 매장 정보는 교육운영 담당자에게 문의해 주세요.</div>
-            </div>
-
-            <h2>📎 참고 자료</h2>
-            <p>LG사이언스파크 생활에 대한 더 자세한 안내는 아래 생활백서를 참고하세요.</p>
-            <div class="info-box">
-                <i class="fas fa-file-pdf"></i>
-                <div>
-                    <a href="files/★LG사이언스파크 생활백서_250716.pdf" target="_blank" style="color:#c97bb6;font-weight:600;text-decoration:underline;font-size:15px;">📄 ★LG사이언스파크 생활백서 다운로드</a>
-                </div>
             </div>
         `
     }

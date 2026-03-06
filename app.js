@@ -367,7 +367,7 @@ const data = [
             <h1>🚪 지하공용회의실 / Camp Park 이용안내</h1>
 
             <h2>공용회의실 상세안내</h2>
-            <p>★LG사이언스파크 회의실 현황 및 예약방법 안내★ (<a href="#" style="color:#6C63FF; font-weight:bold;">☜클릭</a>)</p>
+            <p><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200043823364&itemId=200118770356&docPopup=true" target="_blank" style="color:#6C63FF; font-weight:bold;">★LG사이언스파크 회의실 현황 및 예약방법 안내★ (☜클릭)</a></p>
 
             <h2>공용회의실 예약방법</h2>
             <p>마곡공용회의실 담당자에게 예약 가능여부 문의<br>

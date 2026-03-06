@@ -1022,8 +1022,21 @@ function generateBotAnswer(query) {
             '• 마곡 맛집/카페 추천';
     }
 
-    // 데이터 검색 (기존 searchData 함수 활용)
-    const results = searchData(query);
+    // 데이터 검색 (기존 searchData 활용 + 부분 매칭 보강)
+    let results = searchData(query);
+
+    // 결과가 없으면 붙여쓴 단어를 한글 음절 단위로 분리하여 재검색
+    if (results.length === 0) {
+        const subTerms = splitKoreanCompound(q);
+        if (subTerms.length > 1) {
+            results = searchData(subTerms.join(' '));
+        }
+    }
+
+    // 그래도 없으면 각 글자 2글자씩 슬라이딩 매칭
+    if (results.length === 0) {
+        results = fuzzySearchData(q);
+    }
 
     if (results.length === 0) {
         return '😅 해당 내용을 찾지 못했어요.<br>다른 키워드로 질문해 보세요!<br><br>💡 <em>예시: "간식", "회의실", "출입", "네트워크"</em>';
@@ -1046,6 +1059,82 @@ function generateBotAnswer(query) {
     answer += `<br><br><span style="color:#6C63FF;cursor:pointer;text-decoration:underline;" onclick="showDetail('${top.id}');closeChatbot();">👉 상세 페이지 바로가기</span>`;
 
     return answer;
+}
+
+// 붙여쓴 한글을 키워드 단위로 분리 시도
+function splitKoreanCompound(text) {
+    // 알려진 키워드 사전 (data에서 추출)
+    const knownWords = [];
+    data.forEach(item => {
+        knownWords.push(item.title.toLowerCase());
+        item.keywords.forEach(kw => knownWords.push(kw.toLowerCase()));
+    });
+    // 길이 내림차순 정렬 (긴 키워드 우선 매칭)
+    knownWords.sort((a, b) => b.length - a.length);
+
+    const words = [];
+    let remaining = text.toLowerCase().replace(/\s+/g, '');
+    // 불용어 제거
+    const stopWords = ['알려줘', '알려주세요', '뭐야', '어디', '어떻게', '해줘', '하는법', '방법', '좀', '요', '은', '는', '이', '가', '을', '를', '에', '의', '도', '로'];
+    stopWords.forEach(sw => {
+        remaining = remaining.replace(new RegExp(sw, 'g'), ' ');
+    });
+
+    remaining = remaining.trim();
+    if (!remaining) return [text];
+
+    let found = true;
+    while (remaining.length > 0 && found) {
+        found = false;
+        for (const kw of knownWords) {
+            if (kw.length >= 2 && remaining.includes(kw)) {
+                words.push(kw);
+                remaining = remaining.replace(kw, ' ').trim();
+                found = true;
+                break;
+            }
+        }
+        if (!found && remaining.length > 0) {
+            words.push(remaining);
+            remaining = '';
+        }
+    }
+    return words.length > 0 ? words : [text];
+}
+
+// 퍼지 검색: 2글자 이상 부분 매칭
+function fuzzySearchData(query) {
+    const q = query.toLowerCase().replace(/\s+/g, '');
+
+    return data
+        .map(item => {
+            let score = 0;
+
+            // 키워드가 쿼리에 포함되어 있는지 확인
+            item.keywords.forEach(kw => {
+                const kwLower = kw.toLowerCase();
+                if (q.includes(kwLower) && kwLower.length >= 2) score += 5;
+                if (kwLower.includes(q) && q.length >= 2) score += 5;
+            });
+
+            // 제목이 쿼리에 포함되어 있는지
+            const titleLower = item.title.toLowerCase().replace(/\s+/g, '');
+            if (q.includes(titleLower) || titleLower.includes(q)) score += 10;
+
+            // 2글자 슬라이딩 윈도우 매칭
+            if (score === 0 && q.length >= 2) {
+                for (let i = 0; i <= q.length - 2; i++) {
+                    const bigram = q.substring(i, i + 2);
+                    item.keywords.forEach(kw => {
+                        if (kw.toLowerCase().includes(bigram)) score += 1;
+                    });
+                }
+            }
+
+            return { ...item, score };
+        })
+        .filter(item => item.score > 0)
+        .sort((a, b) => b.score - a.score);
 }
 
 function extractRelevantSnippet(text, terms) {

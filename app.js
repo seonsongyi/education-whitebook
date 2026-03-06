@@ -44,6 +44,7 @@ const data = [
                 <li>노트북 및 전자기기는 반드시 <strong>'반입 물품' 항목에 기입</strong></li>
             </ol>
             <p>📄 참고: <a href="files/[방문] LG_방문포탈_사용자_가이드_V1.0.pdf" target="_blank" style="color:#6C63FF;font-weight:500;">[방문] LG_방문포탈_사용자_가이드_V1.0.pdf 다운로드</a></p>
+            <p>📄 참고: <a href="files/외부인방문신청_FAQ.pptx" download style="color:#6C63FF;font-weight:500;">외부인방문신청_FAQ.pptx 다운로드</a></p>
 
             <div class="info-box">
                 <i class="fas fa-info-circle"></i>

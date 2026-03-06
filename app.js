@@ -346,42 +346,11 @@ const data = [
         content: `
             <h1>🖥️ ISC 장비 반/출입</h1>
 
-            <h2>장비 반입 절차</h2>
-            <p>교육에 필요한 장비를 반입할 경우 아래 절차를 따라 주세요.</p>
-            <ol>
-                <li>반입 3일 전까지 장비 목록(품명, 수량, 시리얼번호)을 교육운영 담당자에게 전달</li>
-                <li>보안팀 승인 후 반입 허가증 발급</li>
-                <li>반입 당일 1층 안내 데스크에서 반입 허가증 확인 후 반입</li>
-                <li>반입 장비는 지정된 장소에서만 사용</li>
-            </ol>
-
-            <h2>장비 반출 절차</h2>
-            <ol>
-                <li>반출 장비 목록을 교육운영 담당자에게 사전 전달</li>
-                <li>보안팀 확인 후 반출 허가증 발급</li>
-                <li>1층 안내 데스크에서 반출 허가증 및 장비 대조 확인 후 반출</li>
-            </ol>
-
-            <div class="warning-box">
-                <i class="fas fa-exclamation-triangle"></i>
-                <div>승인 없이 장비를 반출하는 경우 보안 위반으로 처리됩니다.</div>
-            </div>
-
             <h2>📎 관련 파일 다운로드</h2>
             <ul>
                 <li>📄 <a href="files/영상담당자 장비반출 품의.pptx" download style="color:#6C63FF; font-weight:bold;">영상담당자 장비반출 품의.pptx (다운로드)</a></li>
                 <li>📄 <a href="files/ISC_촬영장비 리스트.xlsx" download style="color:#6C63FF; font-weight:bold;">ISC_촬영장비 리스트.xlsx (다운로드)</a></li>
             </ul>
-
-            <h2>대여 가능 장비</h2>
-            <table>
-                <tr><th>장비</th><th>수량</th><th>대여 절차</th></tr>
-                <tr><td>노트북</td><td>30대</td><td>5일 전 신청, 교육 기간 내 사용</td></tr>
-                <tr><td>빔프로젝터</td><td>5대</td><td>3일 전 신청</td></tr>
-                <tr><td>마이크 세트</td><td>10세트</td><td>3일 전 신청</td></tr>
-                <tr><td>화상회의 장비</td><td>3세트</td><td>5일 전 신청</td></tr>
-                <tr><td>모니터(27")</td><td>20대</td><td>5일 전 신청</td></tr>
-            </table>
         `
     },
 

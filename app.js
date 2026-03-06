@@ -210,6 +210,8 @@ const data = [
                 <div>필수 입력 항목은 <strong>방문자 무선 AP정보</strong>를 입력해야 합니다. 무선 MAC 주소가 다를 경우 <strong>연결이 불가</strong>하오니 정확히 입력해 주세요.</div>
             </div>
 
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [사외강사 무선 네트워크 신청 절차 이미지 보기]</summary><img src="images/사외강사 무선 네트워크 신청 절차.png" alt="사외강사 무선 네트워크 신청 절차" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
+
             <h2>3. 네트워크 문의 (담당자)</h2>
             <p>✔️ 무선(AP포함) 네트워크 관련 FAQ를 먼저 확인해 보세요.</p>
             <p><a href="files/무선네트워크 사용_FAQ.pptx" target="_blank" style="color:#c97bb6;font-weight:500;">📄 무선네트워크 사용_FAQ.pptx 다운로드</a></p>
@@ -648,7 +650,7 @@ const categories = {
         name: 'W동',
         icon: 'fas fa-building',
         emoji: '🏢',
-        items: ['w-access', 'w-classroom', 'w-security']
+        items: ['w-access', 'w-classroom', 'w-security', 'w-network']
     },
     'isc': {
         name: 'ISC',

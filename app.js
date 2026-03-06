@@ -698,6 +698,8 @@ const searchSuggestions = document.getElementById('searchSuggestions');
 let currentView = 'home';
 
 // ========== 네비게이션 ==========
+let isRouting = false; // 라우팅 중복 방지
+
 function goHome() {
     currentView = 'home';
     heroSection.style.display = '';
@@ -707,6 +709,7 @@ function goHome() {
     headerSearch.classList.remove('visible');
     mainSearchInput.value = '';
     headerSearchInput.value = '';
+    if (!isRouting) updateHash('');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -734,6 +737,7 @@ function performSearch(query) {
     const results = searchData(query);
     renderSearchResults(query, results);
     showView('search');
+    if (!isRouting) updateHash('search/' + encodeURIComponent(query));
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -909,6 +913,7 @@ function showDetail(itemId) {
     renderSidebar(item.category, itemId);
     renderContent(item);
     showView('detail');
+    if (!isRouting) updateHash('detail/' + itemId);
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -1166,7 +1171,49 @@ function extractRelevantSnippet(text, terms) {
     return preview || text.substring(0, 150) + '...';
 }
 
+// ========== URL 해시 라우팅 ==========
+function updateHash(hash) {
+    if (hash) {
+        history.pushState(null, '', '#' + hash);
+    } else {
+        history.pushState(null, '', window.location.pathname);
+    }
+}
+
+function handleRoute() {
+    const hash = window.location.hash.replace('#', '');
+    isRouting = true;
+
+    if (!hash) {
+        goHome();
+    } else if (hash.startsWith('detail/')) {
+        const itemId = hash.replace('detail/', '');
+        const item = data.find(d => d.id === itemId);
+        if (item) {
+            showDetail(itemId);
+        } else {
+            goHome();
+        }
+    } else if (hash.startsWith('category/')) {
+        const catId = hash.replace('category/', '');
+        if (categories[catId]) {
+            showCategory(catId);
+        } else {
+            goHome();
+        }
+    } else if (hash.startsWith('search/')) {
+        const query = decodeURIComponent(hash.replace('search/', ''));
+        performSearch(query);
+    } else {
+        goHome();
+    }
+
+    isRouting = false;
+}
+
+window.addEventListener('popstate', handleRoute);
+
 // ========== 초기화 ==========
 document.addEventListener('DOMContentLoaded', () => {
-    goHome();
+    handleRoute();
 });

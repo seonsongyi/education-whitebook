@@ -237,39 +237,32 @@ const data = [
         content: `
             <h1>📋 ISC 예약 및 방문등록</h1>
 
-            <h2>ISC 시설 예약</h2>
-            <p>ISC(Innovation Support Center) 시설 이용을 위해서는 사전 예약이 필요합니다.</p>
+            <h2>☑️ ISC 회의실/다목적홀 예약</h2>
+            <p>ISC 회의실/다목적홀 예약 방법 : LG 사이언스파크 홈페이지 통해 예약 가능</p>
+            <ul>
+                <li><strong>접속 방법 :</strong> <a href="https://portal.lgsp.co.kr" target="_blank" style="color:#6C63FF; font-weight:bold;">https://portal.lgsp.co.kr</a> 접속 or EP 메인페이지 우측 하단 배너 클릭</li>
+                <li>※ 개인정보보호법 등에 의거, 최초 1회 포털 회원가입 절차 및 개인정보사용 동의 필요</li>
+            </ul>
+            <img src="images/ISC,다목적홀 예약 방법1.png" alt="ISC 다목적홀 예약 방법1" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <img src="images/ISC,다목적홀 예약 방법2.png" alt="ISC 다목적홀 예약 방법2" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
 
-            <h3>📝 예약 절차</h3>
-            <ol>
-                <li><strong>예약 신청:</strong> 교육운영 담당자에게 이메일 또는 메신저로 예약 요청</li>
-                <li><strong>필수 정보:</strong> 사용 목적, 일시, 인원, 필요 장비</li>
-                <li><strong>승인 확인:</strong> 담당자 확인 후 예약 확정 메일 발송</li>
-                <li><strong>이용:</strong> 예약 확정 후 해당 일시에 시설 이용</li>
-            </ol>
+            <h2>🚗 ISC 방문 및 주차</h2>
+            <p><strong>ISC 외부인원 방문 및 주차</strong></p>
+            <p>ISC 담당자에게 방문 및 주차등록 메일 요청</p>
+            <ul>
+                <li>최광규 파트너 : <a href="mailto:narayan@sni.co.kr" style="color:#6C63FF; font-weight:bold;">narayan@sni.co.kr</a></li>
+                <li>CC : <a href="mailto:LGSP_Phy_ISC@sni.co.kr" style="color:#6C63FF; font-weight:bold;">LGSP_Phy_ISC@sni.co.kr</a></li>
+            </ul>
+            <img src="images/ISC 방문등록 요청메일 예시.png" alt="ISC 방문등록 요청메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+
+            <h2>📡 ISC 네트워크</h2>
+            <p>ISC건물은 <strong>사내/사외망 둘 다 이용 가능</strong>합니다.</p>
+            <p>각 회의실마다 와이파이 / 와이파이PW 가 부착되어 있습니다.</p>
 
             <div class="info-box">
-                <i class="fas fa-calendar-alt"></i>
-                <div>예약은 최소 <strong>5영업일 전</strong>에 신청해 주세요. 긴급 사용이 필요한 경우 담당자에게 직접 문의하세요.</div>
+                <i class="fas fa-wifi"></i>
+                <div>ISC 각 회의실에 부착된 와이파이 정보를 확인하여 접속하세요. 사내망/사외망 모두 이용 가능합니다.</div>
             </div>
-
-            <h2>방문 등록 절차</h2>
-            <p>ISC 방문 시 아래 절차를 따라 주세요:</p>
-            <ol>
-                <li>방문 3일 전까지 방문자 정보(성명, 소속, 연락처, 차량번호)를 담당자에게 전달</li>
-                <li>방문 당일 1층 안내 데스크에서 방문증 수령</li>
-                <li>방문증 패용 후 시설 이용</li>
-                <li>퇴실 시 방문증 반납</li>
-            </ol>
-
-            <h2>ISC 이용 가능 시설</h2>
-            <table>
-                <tr><th>시설명</th><th>수용인원</th><th>용도</th></tr>
-                <tr><td>대강당</td><td>200명</td><td>대규모 세미나, 행사</td></tr>
-                <tr><td>중회의실 A</td><td>40명</td><td>교육, 워크숍</td></tr>
-                <tr><td>중회의실 B</td><td>30명</td><td>교육, 회의</td></tr>
-                <tr><td>소회의실 1~4</td><td>8~10명</td><td>소규모 미팅</td></tr>
-            </table>
         `
     },
     {

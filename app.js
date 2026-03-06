@@ -253,7 +253,7 @@ const data = [
                 <li>최광규 파트너 : <a href="mailto:narayan@sni.co.kr" style="color:#6C63FF; font-weight:bold;">narayan@sni.co.kr</a></li>
                 <li>CC : <a href="mailto:LGSP_Phy_ISC@sni.co.kr" style="color:#6C63FF; font-weight:bold;">LGSP_Phy_ISC@sni.co.kr</a></li>
             </ul>
-            <img src="images/ISC 방문등록 요청메일 예시.png" alt="ISC 방문등록 요청메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [요청 메일 예시 보기]</summary><img src="images/ISC 방문등록 요청메일 예시.png" alt="ISC 방문등록 요청메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
 
             <h2>📡 ISC 네트워크</h2>
             <p>ISC건물은 <strong>사내/사외망 둘 다 이용 가능</strong>합니다.</p>
@@ -290,22 +290,17 @@ const data = [
                 <li><strong>식권 구매 가능 시간 :</strong> 07:30~08:30 / 10:00~11:00</li>
                 <li><strong>식권 구매처 :</strong> 풀무원 식당 건강도시락 판매장소 뒷 편 G-CAFE or 옆쪽 식권판매처 (아래 식권 판매 안내문 참고)</li>
             </ul>
-            <p>요청 메일 예시 및 식권판매안내</p>
-            <img src="images/풀무원 식권 요청 메일 예시 및 식권판매안내.png" alt="풀무원 식권 요청 메일 예시 및 식권판매안내" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [요청 메일 예시 및 식권판매안내 보기]</summary><img src="images/풀무원 식권 요청 메일 예시 및 식권판매안내.png" alt="풀무원 식권 요청 메일 예시 및 식권판매안내" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
 
             <h2>🚬 ISC 흡연장 오픈 요청</h2>
-            <p>요청 메일 예시</p>
-            <img src="images/ISC 흡연장 오픈 요청 메일 예시.png" alt="ISC 흡연장 오픈 요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [요청 메일 예시 보기]</summary><img src="images/ISC 흡연장 오픈 요청 메일 예시.png" alt="ISC 흡연장 오픈 요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
 
             <h2>🍮 ISC 다과 셋팅</h2>
-            <p>요청 메일 예시</p>
-            <img src="images/ISC 다과 셋팅 요청 메일 예시.png" alt="ISC 다과 셋팅 요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [요청 메일 예시 보기]</summary><img src="images/ISC 다과 셋팅 요청 메일 예시.png" alt="ISC 다과 셋팅 요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
 
             <h2>🍱 ISC 글로벌라운지 중식 요청</h2>
             <p>글로벌 라운지 중식 신청은 <strong>메일 요청</strong> or <strong>SP Portal > 공용시설 > 글로벌라운지 > 예약신청</strong></p>
-            <p>요청 메일 예시</p>
-            <img src="images/ISC글로벌라운지 중식요청 메일 예시.png" alt="ISC 글로벌라운지 중식요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
-            <img src="images/ISC글로벌라운지 중식요청 메일 예시2.png" alt="ISC 글로벌라운지 중식요청 메일 예시2" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [요청 메일 예시 보기]</summary><img src="images/ISC글로벌라운지 중식요청 메일 예시.png" alt="ISC 글로벌라운지 중식요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"><img src="images/ISC글로벌라운지 중식요청 메일 예시2.png" alt="ISC 글로벌라운지 중식요청 메일 예시2" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
 
             <div class="info-box">
                 <i class="fas fa-utensils"></i>

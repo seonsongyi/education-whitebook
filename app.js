@@ -366,46 +366,37 @@ const data = [
         content: `
             <h1>🚪 지하공용회의실 / Camp Park 이용안내</h1>
 
-            <h2>지하공용회의실</h2>
-            <p>지하 1층에 위치한 공용회의실은 교육 및 회의 목적으로 이용 가능합니다.</p>
+            <h2>공용회의실 상세안내</h2>
+            <p>★LG사이언스파크 회의실 현황 및 예약방법 안내★ (<a href="#" style="color:#6C63FF; font-weight:bold;">☜클릭</a>)</p>
 
-            <h3>📍 회의실 현황</h3>
+            <h2>공용회의실 예약방법</h2>
+            <p>마곡공용회의실 담당자에게 예약 가능여부 문의<br>
+            📧 <a href="mailto:mgmr@lge.com" style="color:#6C63FF; font-weight:bold;">mgmr@lge.com</a></p>
+
+            <h3>📋 회의실 예약 요청 상세내용</h3>
             <table>
-                <tr><th>회의실</th><th>위치</th><th>수용인원</th><th>장비</th></tr>
-                <tr><td>B1-A</td><td>지하1층 A구역</td><td>12명</td><td>디스플레이(65"), 화이트보드</td></tr>
-                <tr><td>B1-B</td><td>지하1층 B구역</td><td>8명</td><td>디스플레이(55"), 화이트보드</td></tr>
-                <tr><td>B1-C</td><td>지하1층 C구역</td><td>20명</td><td>빔프로젝터, 마이크</td></tr>
-                <tr><td>B1-D</td><td>지하1층 D구역</td><td>6명</td><td>디스플레이(50")</td></tr>
+                <tr><th>항목</th><th>내용</th></tr>
+                <tr><td>회의명</td><td>예약할 회의/교육명</td></tr>
+                <tr><td>일시</td><td>사용 일시 (시작~종료)</td></tr>
+                <tr><td>장소</td><td>원하는 회의실</td></tr>
+                <tr><td>인원</td><td>참석 예상 인원</td></tr>
+                <tr><td>필요 장비</td><td>빔프로젝터, 마이크 등</td></tr>
+                <tr><td>담당자</td><td>예약 담당자 이름/연락처</td></tr>
             </table>
 
-            <h3>📅 예약 방법</h3>
+            <h3>⚠️ 회의실 예약시 유의사항</h3>
             <ul>
-                <li>사내 회의실 예약 시스템을 통해 예약 (Outlook 캘린더 연동)</li>
-                <li>교육 목적 장기 예약 시 교육운영 담당자를 통해 신청</li>
-                <li>예약 취소는 사용 시작 <strong>1시간 전</strong>까지 가능</li>
+                <li>오디토리움/캠프파크 책상 전원작업의 경우 설치/해체작업 할 수 있도록 <strong>09:00~11:00, 13:00~16:00</strong> 내 별도 예약해주셔야 합니다. (약 2시간 30분 소요)</li>
+                <li>사전에 요청하시지 않은 지원 건은 당일에 도움드리기 어려울 수 있는 점 양해부탁드립니다.</li>
+                <li>공용회의실 예약의 경우, 주요 행사 일정에 따라 회의실 예약 사항 조정될 수 있습니다.</li>
+                <li>회의 취소 또는 변경될 경우, 다른 구성원이 사용할 수 있도록 <strong>즉시 연락</strong>하여 주시기 바랍니다.</li>
+                <li>쾌적한 회의실 환경 유지를 위해 회의실 내 <strong>음식 섭취를 제한</strong>하고 있습니다.</li>
+                <li>다음 사용자를 위하여 사용 후 회의실 원복 후 퇴실 바랍니다. (ex: 책상 및 의자 정리, 빔 프로젝트 전원 종료 등)</li>
             </ul>
-
-            <h2>Camp Park</h2>
-            <p>Camp Park는 자유로운 분위기에서 교육, 워크숍, 네트워킹 등을 진행할 수 있는 개방형 공간입니다.</p>
-
-            <h3>🏕️ 이용 안내</h3>
-            <ul>
-                <li><strong>위치:</strong> W동 1층 로비 옆</li>
-                <li><strong>운영시간:</strong> 평일 09:00 ~ 18:00</li>
-                <li><strong>수용인원:</strong> 최대 60명</li>
-                <li><strong>용도:</strong> 교육, 해커톤, 네트워킹 행사, 세미나</li>
-            </ul>
-
-            <h3>📝 Camp Park 예약</h3>
-            <ol>
-                <li>교육운영 담당자에게 사용 목적, 일시, 인원, 필요 시설을 전달</li>
-                <li>시설 담당자 확인 후 예약 확정</li>
-                <li>대형 행사 시 최소 <strong>2주 전</strong> 예약 필요</li>
-            </ol>
 
             <div class="info-box">
-                <i class="fas fa-campground"></i>
-                <div>Camp Park는 개방형 구조로, 동시에 여러 팀이 사용할 수 있습니다. 대규모 행사 시 전체 대관도 가능하니 담당자에게 문의하세요.</div>
+                <i class="fas fa-envelope"></i>
+                <div>공용회의실 예약은 <strong>mgmr@lge.com</strong>으로 문의해주세요. 사전 요청되지 않은 건은 당일 지원이 어려울 수 있습니다.</div>
             </div>
         `
     },

@@ -150,30 +150,38 @@ const data = [
         category: 'w-building',
         categoryName: 'W동',
         title: '보안안내',
-        keywords: ['보안', '보안규정', '촬영', '반출', '정보보호', 'USB', 'W동', '노트북', '카메라', '보안서약서', '분실물'],
+        keywords: ['보안', '보안규정', '촬영', '반출', '정보보호', 'USB', 'W동', '노트북', '카메라', '보안서약서', '분실물', '자산', '반입금지', '영상', '촬영장비', '바코드', '오반입'],
         content: `
             <h1>🔒 보안안내</h1>
 
-            <h2>일반 보안 수칙</h2>
-            <ul>
-                <li>건물 내 <strong>사진 및 동영상 촬영은 금지</strong>됩니다. (교육 관련 촬영은 사전 승인 필요)</li>
-                <li>사내 문서 및 자료의 외부 반출은 엄격히 금지됩니다.</li>
-                <li>외부 USB 저장장치 사용은 보안 정책에 따라 제한됩니다.</li>
-                <li>보안 서약서 작성이 교육 시작 전 필수입니다.</li>
-            </ul>
+            <h2>1. 사내 반입 금지 물품</h2>
+            <p>👉 <a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200175796861&itemId=200178870022&docPopup=true" target="_blank" style="color:#6C63FF; font-weight:bold;">사내 반입 금지 물품 안내 (☜클릭)</a></p>
+
+            <h2>2. 자산 반출</h2>
+            <table>
+                <tr><th>구분</th><th>안내</th></tr>
+                <tr><td><strong>문서 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179738880&docPopup=true" target="_blank" style="color:#6C63FF;">문서 반출 신청 방법 (☜클릭)</a></td></tr>
+                <tr><td><strong>오반입 물품 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179738568&docPopup=true" target="_blank" style="color:#6C63FF;">오반입 물품 반출 신청 방법 (☜클릭)</a></td></tr>
+                <tr><td><strong>정보자산(바코드) 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179732032&docPopup=true" target="_blank" style="color:#6C63FF;">정보자산(바코드) 반출 신청 방법 (☜클릭)</a></td></tr>
+                <tr><td><strong>미등록자산 반출</strong></td><td>미등록 정보자산(바코드X) 반출 신청 방법</td></tr>
+                <tr><td><strong>고정/일반자산 반출</strong></td><td>고정/일반자산 반출 신청 방법</td></tr>
+                <tr><td><strong>정보자산/대리 반출<br>(공용PC 대리 반출)</strong></td><td>정보자산 대리 반출 신청 방법</td></tr>
+            </table>
+
+            <div class="info-box">
+                <i class="fas fa-file-alt"></i>
+                <div>✔️ 자산반출 관련 FAQ는 아래 파일을 참고하세요.</div>
+            </div>
+
+            <h2>3. 영상 촬영장비 반/출입</h2>
+            <p>고정/일반자산에 <strong>S/N 등록해야 반/출입 가능</strong></p>
+            <p>📄 <a href="files/영상담당자 장비반출 품의.pptx" download style="color:#6C63FF; font-weight:bold;">영상담당자 장비반출 가이드(품의/장비명단).pptx 다운로드</a></p>
+            <p>📄 <a href="files/ISC_촬영장비 리스트.xlsx" download style="color:#6C63FF; font-weight:bold;">ISC_촬영장비 리스트.xlsx 다운로드</a></p>
 
             <div class="warning-box">
                 <i class="fas fa-shield-alt"></i>
                 <div>보안 위반 적발 시 교육 참여가 제한될 수 있으며, 관련 규정에 따라 조치됩니다.</div>
             </div>
-
-            <h2>정보보호 관련 안내</h2>
-            <p>교육 중 제공되는 자료는 내부 학습 목적으로만 사용 가능하며, 교육 종료 후 자료 삭제 또는 반납이 필요합니다.</p>
-            <ul>
-                <li>교육 자료 복제 및 배포 금지</li>
-                <li>화면 캡처 시 사전 허가 필요</li>
-                <li>교육용 계정은 교육 기간 내에만 유효</li>
-            </ul>
 
             <h2>분실물 처리</h2>
             <p>건물 내에서 분실물 발견 시 <strong>1층 안내 데스크</strong> 또는 교육운영 담당자에게 전달해 주세요.</p>

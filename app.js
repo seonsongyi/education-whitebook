@@ -163,14 +163,17 @@ const data = [
                 <tr><td><strong>문서 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179738880&docPopup=true" target="_blank" style="color:#6C63FF;">문서 반출 신청 방법 (☜클릭)</a></td></tr>
                 <tr><td><strong>오반입 물품 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179738568&docPopup=true" target="_blank" style="color:#6C63FF;">오반입 물품 반출 신청 방법 (☜클릭)</a></td></tr>
                 <tr><td><strong>정보자산(바코드) 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179732032&docPopup=true" target="_blank" style="color:#6C63FF;">정보자산(바코드) 반출 신청 방법 (☜클릭)</a></td></tr>
-                <tr><td><strong>미등록자산 반출</strong></td><td>미등록 정보자산(바코드X) 반출 신청 방법</td></tr>
-                <tr><td><strong>고정/일반자산 반출</strong></td><td>고정/일반자산 반출 신청 방법</td></tr>
-                <tr><td><strong>정보자산/대리 반출<br>(공용PC 대리 반출)</strong></td><td>정보자산 대리 반출 신청 방법</td></tr>
+                <tr><td><strong>미등록자산 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179733182&docPopup=true" target="_blank" style="color:#6C63FF;">미등록 정보자산(바코드X) 반출 신청 방법 (☜클릭)</a></td></tr>
+                <tr><td><strong>고정/일반자산 반출</strong></td><td><a href="http://space.lge.com/collpack/collaboration/board/boardItem/readBoardItemLinkView.do?boardId=200174461731&itemId=200179737394&docPopup=true" target="_blank" style="color:#6C63FF;">고정/일반자산 반출 신청 방법 (☜클릭)</a></td></tr>
+                <tr><td><strong>정보자산/대리 반출<br>(공용PC 대리 반출)</strong></td><td>정보자산 대리 반출 신청 방법 (아래 이미지 참고)</td></tr>
             </table>
+
+            <details style="margin:12px 0; cursor:pointer;"><summary style="color:#6C63FF; font-weight:bold; font-size:1.05em;">📩 [정보자산 대리 반출 신청 방법 보기]</summary><img src="images/정보자산 대리 반출 신청 방법.png" alt="정보자산 대리 반출 신청 방법" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);"></details>
 
             <div class="info-box">
                 <i class="fas fa-file-alt"></i>
-                <div>✔️ 자산반출 관련 FAQ는 아래 파일을 참고하세요.</div>
+                <div>✔️ 자산반출 관련 FAQ는 아래 파일을 참고하세요.<br>
+                📄 <a href="files/자산 반출 FAQ.pptx" download style="color:#6C63FF; font-weight:bold;">자산 반출 FAQ.pptx 다운로드</a></div>
             </div>
 
             <h2>3. 영상 촬영장비 반/출입</h2>

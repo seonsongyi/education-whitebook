@@ -374,15 +374,7 @@ const data = [
             📧 <a href="mailto:mgmr@lge.com" style="color:#6C63FF; font-weight:bold;">mgmr@lge.com</a></p>
 
             <h3>📋 회의실 예약 요청 상세내용</h3>
-            <table>
-                <tr><th>항목</th><th>내용</th></tr>
-                <tr><td>회의명</td><td>예약할 회의/교육명</td></tr>
-                <tr><td>일시</td><td>사용 일시 (시작~종료)</td></tr>
-                <tr><td>장소</td><td>원하는 회의실</td></tr>
-                <tr><td>인원</td><td>참석 예상 인원</td></tr>
-                <tr><td>필요 장비</td><td>빔프로젝터, 마이크 등</td></tr>
-                <tr><td>담당자</td><td>예약 담당자 이름/연락처</td></tr>
-            </table>
+            <img src="images/회의실 예약 요청 상세내용.png" alt="회의실 예약 요청 상세내용" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
 
             <h3>⚠️ 회의실 예약시 유의사항</h3>
             <ul>

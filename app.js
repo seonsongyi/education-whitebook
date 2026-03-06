@@ -961,6 +961,122 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// ========== 챗봇 ==========
+function toggleChatbot() {
+    const w = document.getElementById('chatbotWindow');
+    w.classList.toggle('open');
+}
+
+function closeChatbot() {
+    document.getElementById('chatbotWindow').classList.remove('open');
+}
+
+function sendChat() {
+    const input = document.getElementById('chatbotInput');
+    const query = input.value.trim();
+    if (!query) return;
+
+    const msgs = document.getElementById('chatbotMessages');
+
+    // 사용자 메시지 추가
+    const userMsg = document.createElement('div');
+    userMsg.className = 'chat-msg user';
+    userMsg.textContent = query;
+    msgs.appendChild(userMsg);
+    input.value = '';
+
+    // 봇 응답 생성
+    setTimeout(() => {
+        const answer = generateBotAnswer(query);
+        const botMsg = document.createElement('div');
+        botMsg.className = 'chat-msg bot';
+        botMsg.innerHTML = answer;
+        msgs.appendChild(botMsg);
+        msgs.scrollTop = msgs.scrollHeight;
+    }, 400);
+
+    msgs.scrollTop = msgs.scrollHeight;
+}
+
+function generateBotAnswer(query) {
+    const q = query.toLowerCase();
+    const terms = q.split(/\s+/).filter(t => t.length > 0);
+
+    // 인사 처리
+    const greetings = ['안녕', '하이', 'hi', 'hello', '반가', '헬로'];
+    if (greetings.some(g => q.includes(g))) {
+        return '안녕하세요! 😊 교육운영백서 챗봇입니다.<br>궁금한 내용을 질문해 주세요!<br><br>예시: "간식 업체 알려줘", "회의실 예약", "네트워크 연결"';
+    }
+
+    // 도움말
+    if (q.includes('도움') || q.includes('help') || q === '?' || q.includes('뭐 물어')) {
+        return '이런 것들을 물어볼 수 있어요! 💡<br><br>' +
+            '• W동 출입 방법<br>' +
+            '• 강의장 이용안내<br>' +
+            '• 보안 관련 안내<br>' +
+            '• 네트워크 연결 방법<br>' +
+            '• ISC 예약/방문등록<br>' +
+            '• 중식/케이터링 요청<br>' +
+            '• 회의실 예약 방법<br>' +
+            '• 간식/굿즈 업체 추천<br>' +
+            '• 마곡 맛집/카페 추천';
+    }
+
+    // 데이터 검색 (기존 searchData 함수 활용)
+    const results = searchData(query);
+
+    if (results.length === 0) {
+        return '😅 해당 내용을 찾지 못했어요.<br>다른 키워드로 질문해 보세요!<br><br>💡 <em>예시: "간식", "회의실", "출입", "네트워크"</em>';
+    }
+
+    // 가장 관련도 높은 항목 선택
+    const top = results[0];
+    const plainText = top.content.replace(/<[^>]*>/g, '');
+
+    // 질문 키워드가 포함된 문장 추출
+    let snippet = extractRelevantSnippet(plainText, terms);
+
+    let answer = `📌 <em>${top.title}</em> 에서 찾았어요!<br><br>${snippet}`;
+
+    // 추가 결과가 있으면 안내
+    if (results.length > 1) {
+        answer += `<br><br>📎 관련 항목이 ${results.length - 1}개 더 있어요.`;
+    }
+
+    answer += `<br><br><span style="color:#6C63FF;cursor:pointer;text-decoration:underline;" onclick="showDetail('${top.id}');closeChatbot();">👉 상세 페이지 바로가기</span>`;
+
+    return answer;
+}
+
+function extractRelevantSnippet(text, terms) {
+    const sentences = text.split(/[.。\n]+/).filter(s => s.trim().length > 5);
+
+    // 키워드가 포함된 문장 찾기
+    let matched = [];
+    sentences.forEach(s => {
+        const lower = s.toLowerCase();
+        let matchCount = 0;
+        terms.forEach(t => {
+            if (lower.includes(t)) matchCount++;
+        });
+        if (matchCount > 0) {
+            matched.push({ text: s.trim(), score: matchCount });
+        }
+    });
+
+    // 관련도 높은 순 정렬
+    matched.sort((a, b) => b.score - a.score);
+
+    if (matched.length > 0) {
+        // 상위 3문장 반환
+        return matched.slice(0, 3).map(m => '• ' + m.text).join('<br>');
+    }
+
+    // 매칭 문장 없으면 앞부분 발췌
+    const preview = sentences.slice(0, 3).map(s => '• ' + s.trim()).join('<br>');
+    return preview || text.substring(0, 150) + '...';
+}
+
 // ========== 초기화 ==========
 document.addEventListener('DOMContentLoaded', () => {
     goHome();

@@ -14,21 +14,36 @@ const data = [
         content: `
             <h1>🏢 W동 출입 및 교통 안내</h1>
 
-            <h2>출입 안내</h2>
-            <h3>🪪 자유 출입 (ID카드)</h3>
+            <h2>1. 타사업장 임직원 출입 안내</h2>
+            <p><strong>사업장 관계없이 ID카드로 입/출입 가능</strong></p>
             <ul>
-                <li>ID카드로 자유 출입 가능</li>
                 <li>층수 권한이 필요 없는 층: <strong>W동 지하~1층, W10동 3층, Camp Park</strong></li>
             </ul>
 
-            <h3>📋 방문 예약 (Visit Reservation)</h3>
-            <p>출입 예약이 필요한 경우, <strong>방문자가 직접 Visit Reservation을 통해 예약</strong>해야 합니다.</p>
-            <p>👉 <a href="https://visit.lge.com/login" target="_blank" style="color:#c97bb6;font-weight:600;text-decoration:underline;">Visit Reservation 바로가기</a></p>
-            <ul>
-                <li>방문신청 가이드: <a href="files/[방문] LG_방문포탈_사용자_가이드_V1.0.pdf" target="_blank" style="color:#c97bb6;font-weight:500;">📄 [방문] LG_방문포탈_사용자_가이드_V1.0.pdf 다운로드</a></li>
-                <li>입실 시 <strong>임직원 동행 필요</strong> (퇴실 시에는 불필요)</li>
-                <li>강사 패찰은 없음</li>
-            </ul>
+            <h2>2. 노트북 반출 기준</h2>
+            <table>
+                <tr><th>구분</th><th>반출 방법</th></tr>
+                <tr><td><strong>업무용 개인 리스 노트북</strong></td><td>기존 반출 신청 내역이 있으면 보안 검색대 통과 후 반출 가능</td></tr>
+                <tr><td><strong>자산/공용 노트북</strong></td><td>반출 신청 및 승인 필수 (기간 지정 가능)</td></tr>
+            </table>
+            <div class="info-box">
+                <i class="fas fa-laptop"></i>
+                <div>
+                    <strong>✔️ 업무용 개인 리스 노트북 등록 여부 확인 경로</strong><br>
+                    Security Portal > Checkout > Storage → Item : NB코드 / Type : 개인 입력 후 검색
+                </div>
+            </div>
+
+            <h2>3. 사외강사 방문 신청 (교육일 기준 D-3일까지)</h2>
+            <p>👉 <a href="https://visit.lge.com/login" target="_blank" style="color:#6C63FF;font-weight:600;text-decoration:underline;">LG Visit Reservation | LG 방문 예약 바로가기</a> → 비회원 방문 예약</p>
+            <ol>
+                <li><strong>모두 동의</strong> 체크</li>
+                <li><strong>장소:</strong> 마곡 검색 (LG전자 마곡 선택)</li>
+                <li><strong>방문자:</strong> 교육 운영자 이름 검색 후 지정</li>
+                <li><strong>날짜:</strong> 교육 기간 지정</li>
+                <li>노트북 및 전자기기는 반드시 <strong>'반입 물품' 항목에 기입</strong></li>
+            </ol>
+            <p>📄 참고: <a href="files/[방문] LG_방문포탈_사용자_가이드_V1.0.pdf" target="_blank" style="color:#6C63FF;font-weight:500;">[방문] LG_방문포탈_사용자_가이드_V1.0.pdf 다운로드</a></p>
 
             <div class="info-box">
                 <i class="fas fa-info-circle"></i>

@@ -274,36 +274,40 @@ const data = [
         content: `
             <h1>🍱 ISC 중식 및 케이터링 요청</h1>
 
-            <h2>중식 안내</h2>
-            <p>교육 진행 시 교육생 중식을 아래와 같이 지원할 수 있습니다.</p>
-
-            <h3>🍚 구내식당 이용</h3>
-            <ul>
-                <li><strong>운영시간:</strong> 11:30 ~ 13:30</li>
-                <li><strong>위치:</strong> W동 지하 1층</li>
-                <li><strong>이용방법:</strong> 교육생 명단 사전 등록 후 식권 배부</li>
-                <li><strong>메뉴:</strong> 한식/양식/일식 중 택 1 (매주 메뉴표 제공)</li>
-            </ul>
-
-            <h3>🍱 도시락 주문</h3>
+            <h2>📞 ISC 담당자 연락처</h2>
             <table>
-                <tr><th>업체</th><th>단가(1인)</th><th>최소 주문</th><th>주문 마감</th></tr>
-                <tr><td>한솥도시락</td><td>8,000원~</td><td>10인</td><td>전일 15:00</td></tr>
-                <tr><td>본도시락</td><td>9,000원~</td><td>10인</td><td>전일 17:00</td></tr>
-                <tr><td>프리미엄 도시락</td><td>12,000원~</td><td>20인</td><td>3일 전</td></tr>
+                <tr><th>분류</th><th>이름</th><th>연락처</th><th>메일</th><th>내용</th><th>기타</th></tr>
+                <tr><td>ISC</td><td>이배성 책임</td><td>010-9588-2485</td><td>baesung.lee@lge.com</td><td>풀무원 식권 구입</td><td>ISC에서 교육 중, 이동의 편의를 위해 풀무원에서 식사를 진행하게 될 경우<br>*타사업장 인원이라 식수 권한이 없을 경우에만 해당 (마곡 근무 LG전자 인원은 권한 있음)</td></tr>
+                <tr><td>ISC</td><td>이현웅 선임</td><td>010-4154-8257</td><td>hyunwoong@sni.co.kr</td><td>ISC 관련 문의</td><td>ISC 강의장 설비 관련 문의<br>냉난방 조절 or 책걸상 요청 등</td></tr>
+                <tr><td>ISC</td><td>최광규 파트너</td><td>010-9291-5662</td><td>narayan@sni.co.kr</td><td>ISC 흡연장 오픈</td><td>ISC 8층 흡연장 오픈 요청</td></tr>
+                <tr><td>ISC</td><td>글로벌라운지 담당자<br>(박상호 책임)</td><td>02-6987-1392</td><td>psh4227@dnocorp.com</td><td>케이터링 및 중식</td><td>ISC 강의장 다과 셋팅 및 글로벌라운지 중식 이용할 경우, 해당 담당자에게 요청</td></tr>
             </table>
 
-            <h2>케이터링 서비스</h2>
-            <p>교육 행사 시 케이터링 서비스를 이용할 수 있습니다.</p>
+            <h2>🎫 풀무원 식권 구입</h2>
             <ul>
-                <li><strong>신청 방법:</strong> 교육운영 담당자에게 행사일 최소 7일 전 요청</li>
-                <li><strong>제공 가능 메뉴:</strong> 다과, 핑거푸드, 커피/음료 세트, 뷔페</li>
-                <li><strong>예산:</strong> 1인당 10,000원 ~ 30,000원 (메뉴에 따라 상이)</li>
+                <li>해당 메일 내용에 대한 확인 답변 메일 받은 후, 풀무원 식당 식권 구매처에서 식권 구입</li>
+                <li>소량(2~3장)은 별도 메일 없이, 캐셔에서 식권 구입</li>
+                <li><strong>식권 구매 가능 시간 :</strong> 07:30~08:30 / 10:00~11:00</li>
+                <li><strong>식권 구매처 :</strong> 풀무원 식당 건강도시락 판매장소 뒷 편 G-CAFE or 옆쪽 식권판매처 (아래 식권 판매 안내문 참고)</li>
             </ul>
+
+            <h2>🚬 ISC 흡연장 오픈 요청</h2>
+            <p>요청 메일 예시</p>
+            <img src="images/ISC 흡연장 오픈 요청 메일 예시.png" alt="ISC 흡연장 오픈 요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+
+            <h2>🍮 ISC 다과 셋팅</h2>
+            <p>요청 메일 예시</p>
+            <img src="images/ISC 다과 셋팅 요청 메일 예시.png" alt="ISC 다과 셋팅 요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+
+            <h2>🍱 ISC 글로벌라운지 중식 요청</h2>
+            <p>글로벌 라운지 중식 신청은 <strong>메일 요청</strong> or <strong>SP Portal > 공용시설 > 글로벌라운지 > 예약신청</strong></p>
+            <p>요청 메일 예시</p>
+            <img src="images/ISC글로벌라운지 중식요청 메일 예시.png" alt="ISC 글로벌라운지 중식요청 메일 예시" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
+            <img src="images/ISC글로벌라운지 중식요청 메일 예시2.png" alt="ISC 글로벌라운지 중식요청 메일 예시2" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
 
             <div class="info-box">
                 <i class="fas fa-utensils"></i>
-                <div>알레르기 또는 특이 식단이 있는 교육생은 사전에 알려주시면 별도 대응이 가능합니다.</div>
+                <div>ISC 중식 및 케이터링 관련 문의는 각 담당자에게 연락해주세요.</div>
             </div>
         `
     },

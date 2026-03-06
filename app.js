@@ -290,6 +290,8 @@ const data = [
                 <li><strong>식권 구매 가능 시간 :</strong> 07:30~08:30 / 10:00~11:00</li>
                 <li><strong>식권 구매처 :</strong> 풀무원 식당 건강도시락 판매장소 뒷 편 G-CAFE or 옆쪽 식권판매처 (아래 식권 판매 안내문 참고)</li>
             </ul>
+            <p>요청 메일 예시 및 식권판매안내</p>
+            <img src="images/풀무원 식권 요청 메일 예시 및 식권판매안내.png" alt="풀무원 식권 요청 메일 예시 및 식권판매안내" style="width:100%; max-width:800px; border-radius:12px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,0.1);">
 
             <h2>🚬 ISC 흡연장 오픈 요청</h2>
             <p>요청 메일 예시</p>
@@ -340,6 +342,12 @@ const data = [
                 <i class="fas fa-exclamation-triangle"></i>
                 <div>승인 없이 장비를 반출하는 경우 보안 위반으로 처리됩니다.</div>
             </div>
+
+            <h2>📎 관련 파일 다운로드</h2>
+            <ul>
+                <li>📄 <a href="files/영상담당자 장비반출 품의.pptx" download style="color:#6C63FF; font-weight:bold;">영상담당자 장비반출 품의.pptx (다운로드)</a></li>
+                <li>📄 <a href="files/ISC_촬영장비 리스트.xlsx" download style="color:#6C63FF; font-weight:bold;">ISC_촬영장비 리스트.xlsx (다운로드)</a></li>
+            </ul>
 
             <h2>대여 가능 장비</h2>
             <table>

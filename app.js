@@ -1005,21 +1005,21 @@ function generateBotAnswer(query) {
     // 인사 처리
     const greetings = ['안녕', '하이', 'hi', 'hello', '반가', '헬로'];
     if (greetings.some(g => q.includes(g))) {
-        return '안녕하세요! 😊 교육운영백서 챗봇입니다.<br>궁금한 내용을 질문해 주세요!<br><br>예시: "간식 업체 알려줘", "회의실 예약", "네트워크 연결"';
+        return '반가워요~! 🐰✨<br>저는 <strong>백서 도우미</strong>예요!<br>궁금한 거 뭐든 물어봐 주세요 💕<br><br>💬 <em>"간식 업체 알려줘", "회의실 예약", "네트워크 연결"</em>';
     }
 
     // 도움말
     if (q.includes('도움') || q.includes('help') || q === '?' || q.includes('뭐 물어')) {
-        return '이런 것들을 물어볼 수 있어요! 💡<br><br>' +
-            '• W동 출입 방법<br>' +
-            '• 강의장 이용안내<br>' +
-            '• 보안 관련 안내<br>' +
-            '• 네트워크 연결 방법<br>' +
-            '• ISC 예약/방문등록<br>' +
-            '• 중식/케이터링 요청<br>' +
-            '• 회의실 예약 방법<br>' +
-            '• 간식/굿즈 업체 추천<br>' +
-            '• 마곡 맛집/카페 추천';
+        return '이런 것들을 물어볼 수 있어요! 🐰💡<br><br>' +
+            '🏢 W동 출입 방법<br>' +
+            '🎓 강의장 이용안내<br>' +
+            '🔒 보안 관련 안내<br>' +
+            '🌐 네트워크 연결 방법<br>' +
+            '📋 ISC 예약/방문등록<br>' +
+            '🍱 중식/케이터링 요청<br>' +
+            '🏛️ 회의실 예약 방법<br>' +
+            '🍪 간식/굿즈 업체 추천<br>' +
+            '🍽️ 마곡 맛집/카페 추천';
     }
 
     // 데이터 검색 (기존 searchData 활용 + 부분 매칭 보강)
@@ -1039,7 +1039,7 @@ function generateBotAnswer(query) {
     }
 
     if (results.length === 0) {
-        return '😅 해당 내용을 찾지 못했어요.<br>다른 키워드로 질문해 보세요!<br><br>💡 <em>예시: "간식", "회의실", "출입", "네트워크"</em>';
+        return '🐰💦 앗, 그건 잘 모르겠어요~<br>다른 키워드로 다시 물어봐 주세요!<br><br>💡 <em>"간식", "회의실", "출입", "네트워크"</em>';
     }
 
     // 가장 관련도 높은 항목 선택
@@ -1049,14 +1049,14 @@ function generateBotAnswer(query) {
     // 질문 키워드가 포함된 문장 추출
     let snippet = extractRelevantSnippet(plainText, terms);
 
-    let answer = `📌 <em>${top.title}</em> 에서 찾았어요!<br><br>${snippet}`;
+    let answer = `🐰💜 <em>${top.title}</em> 에서 찾았어요!<br><br>${snippet}`;
 
     // 추가 결과가 있으면 안내
     if (results.length > 1) {
-        answer += `<br><br>📎 관련 항목이 ${results.length - 1}개 더 있어요.`;
+        answer += `<br><br>📎 관련 항목이 ${results.length - 1}개 더 있어요~`;
     }
 
-    answer += `<br><br><span style="color:#6C63FF;cursor:pointer;text-decoration:underline;" onclick="showDetail('${top.id}');closeChatbot();">👉 상세 페이지 바로가기</span>`;
+    answer += `<br><br><span style="color:#a855f7;cursor:pointer;text-decoration:underline;font-weight:600;" onclick="showDetail('${top.id}');closeChatbot();">👉 상세 페이지 바로가기</span>`;
 
     return answer;
 }

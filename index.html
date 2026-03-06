@@ -117,18 +117,18 @@
 
     <!-- 챗봇 -->
     <div class="chatbot-btn" id="chatbotBtn" onclick="toggleChatbot()">
-        <i class="fas fa-comment-dots"></i>
+        <span class="chatbot-btn-emoji">💜</span>
     </div>
     <div class="chatbot-window" id="chatbotWindow">
         <div class="chatbot-header">
-            <span>🤖 백서 도우미</span>
+            <span>🐰 백서 도우미</span>
             <button onclick="toggleChatbot()"><i class="fas fa-times"></i></button>
         </div>
         <div class="chatbot-messages" id="chatbotMessages">
-            <div class="chat-msg bot">안녕하세요! 교육운영백서 도우미예요 😊<br>궁금한 내용을 물어보세요!<br><br>예시: <em>간식업체 알려줘, 주차 어떻게 해?, 네트워크 연결</em></div>
+            <div class="chat-msg bot">반가워요~! 🐰✨<br>저는 <strong>백서 도우미</strong>예요!<br>궁금한 거 뭐든 물어봐 주세요 💕<br><br>💬 <em>간식업체 알려줘, 주차 어떻게 해?, 네트워크 연결</em></div>
         </div>
         <div class="chatbot-input">
-            <input type="text" id="chatbotInput" placeholder="궁금한 내용을 입력하세요..." autocomplete="off" onkeypress="if(event.key==='Enter')sendChat()">
+            <input type="text" id="chatbotInput" placeholder="무엇이든 물어보세요~ 🐰" autocomplete="off" onkeypress="if(event.key==='Enter')sendChat()">
             <button onclick="sendChat()"><i class="fas fa-paper-plane"></i></button>
         </div>
     </div>

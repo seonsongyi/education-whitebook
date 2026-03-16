@@ -144,8 +144,8 @@ const data = [
                 <tr><td><strong>그 외 교육장</strong></td><td>마곡공용회의실 (<a href="mailto:mgmr@lge.com" style="color:#c97bb6;">mgmr@lge.com</a>)</td></tr>
             </table>
 
-            <p>▶ 강의장 예약 신청/취소 Form : <a href="https://forms.office.com/r/jzZ4EVtmTC" target="_blank" style="color:#c97bb6; font-weight:bold;">https://forms.office.com/r/jzZ4EVtmTC</a></p>
-            <p>▶ 강의장 예약현황 캘린더 : <a href="https://lgeteams.sharepoint.com/sites/O365_xA26621/Lists/test/view.aspx?env=WebViewList" target="_blank" style="color:#c97bb6; font-weight:bold;">https://lgeteams.sharepoint.com/sites/O365_xA26621/Lists/test/view.aspx?env=WebViewList</a></p>
+            <p>▶ <a href="https://forms.office.com/r/jzZ4EVtmTC" target="_blank" style="color:#c97bb6; font-weight:bold;">강의장 예약 신청/취소 Form (☜클릭)</a></p>
+            <p>▶ <a href="https://lgeteams.sharepoint.com/sites/O365_xA26621/Lists/test/view.aspx?env=WebViewList" target="_blank" style="color:#c97bb6; font-weight:bold;">강의장 예약현황 캘린더 (☜클릭)</a></p>
             <div class="warning-box">
                 <i class="fas fa-exclamation-triangle"></i>
                 <div>※ 위 캘린더 사이트는 예약현황 조회 목적으로 사용해주시고, 사이트 자체에서 캘린더 서식 및 예약정보 등을 추가/수정하지 말아주세요.</div>

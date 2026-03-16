@@ -274,7 +274,7 @@ const data = [
         categoryName: 'W동',
         title: '편의시설 안내 (식당/카페/지원센터)',
         keywords: ['편의시설', '식당', '카페', '편의점', '아워홈', 'CJ', 'GS25', '건강관리실', '피트니스', '탁구장', '어린이집', '하이프라자', 'L카페', '베이커리', '우리은행', 'TTT카페', '레드캡', '도움마당', '안내데스크', '운영시간', '사내식당', '풀무원', '맘스터치', '석관동떡볶이', '업무지원센터', '메일센터', 'PC유지보수', '정보보호지원센터', '모성보호실'],
-        content: \`
+        content: `
             <h1>🏬 편의시설 안내</h1>
 
             <h2>🍽️ 사내식당 운영</h2>
@@ -332,7 +332,7 @@ const data = [
                 <tr><td>W3 / W5동</td><td>0-2113 / 2112</td></tr>
                 <tr><td>W4 / W6동</td><td>3-1106 / 1105</td></tr>
             </table>
-        \`
+        `
     },
     {
         id: 'w-commute',
@@ -340,7 +340,7 @@ const data = [
         categoryName: 'W동',
         title: '통근버스 / 셔틀버스',
         keywords: ['통근버스', '셔틀', '셔틀버스', '버스', '출퇴근', '퇴근', '출근', '노선', '탑승', '엣스퍼트', 'APP', '평택', '인천', '서초', '가산', '마곡', '통근', '정류장'],
-        content: \`
+        content: `
             <h1>🚌 통근버스 / 셔틀버스</h1>
 
             <h2>통근버스 운영 현황</h2>
@@ -406,7 +406,7 @@ const data = [
                 <div>※ 셔틀버스 및 분실물 관련 문의사항은 <strong>02-6987-1334,6</strong>으로 연락주시기 바랍니다.<br>
                 ※ 퇴근 승강장은 차량 진입 순서에 따라 노선별 승차 위치가 변경될 수 있으며, 실시간 차량 진입 순서는 '엣스퍼트 통근버스 APP'에서 확인 가능합니다.</div>
             </div>
-        \`
+        `
     },
     {
         id: 'w-daycare',
@@ -414,7 +414,7 @@ const data = [
         categoryName: 'W동',
         title: '어린이집',
         keywords: ['어린이집', '보육', '어린이', '육아', '모아맘', 'ISC', 'W7동', '원아모집', '입소'],
-        content: \`
+        content: `
             <h1>👶 어린이집</h1>
 
             <h2>운영 현황</h2>
@@ -444,7 +444,7 @@ const data = [
                     ※ 수시모집은 결원 시 차순위자 입소
                 </div>
             </div>
-        \`
+        `
     },
     {
         id: 'w-parking',
@@ -452,7 +452,7 @@ const data = [
         categoryName: 'W동',
         title: '주차장 / 전기차 충전소',
         keywords: ['주차', '주차장', '주차권', '정기권', '일일주차', '방문주차', '전기차', '충전소', '충전', 'EV', '지하주차장', '주차석', '경차', '장애인', 'portal.lgsp.co.kr'],
-        content: \`
+        content: `
             <h1>🅿️ 주차장 / 전기차 충전소</h1>
 
             <h2>주차장 현황</h2>
@@ -501,7 +501,7 @@ const data = [
                 <li>설치 현황: 총 46대 운영 (1단계 24대 운영, 2단계 추가 20대 설치)</li>
                 <li>이용시간: <strong>07:00 ~ 18:00</strong> (18시 이후에는 충전 종료 및 이동주차)</li>
             </ul>
-        \`
+        `
     },
 
     // ===== ISC =====
@@ -904,7 +904,7 @@ const data = [
         categoryName: '생활 지원',
         title: '공용회의실 예약 및 운영규정',
         keywords: ['공용회의실', 'EP', '예약', '이메일', '회의실', 'Auditorium', 'Conference', 'Innovation Hall', 'Reinvent Hall', 'Camp Park', 'mgmr', '오디토리움', '컨퍼런스룸', '회의실예약', '패널티', 'No Show', '예약패드', '입실'],
-        content: \`
+        content: `
             <h1>🏛️ 공용회의실 예약 및 운영규정</h1>
 
             <h2>EP 시스템 예약 방법</h2>
@@ -971,7 +971,7 @@ const data = [
             </table>
 
             <p>📞 회의실 관련 문의: <a href="mailto:mgmr@lge.com" style="color:#c97bb6;">마곡공용회의실 (mgmr@lge.com)</a>, 마곡총무팀 (<a href="mailto:forest.shin@lge.com" style="color:#c97bb6;">forest.shin@lge.com</a>)</p>
-        \`
+        `
     },
     {
         id: 'life-posting',
@@ -979,7 +979,7 @@ const data = [
         categoryName: '생활 지원',
         title: '게시물/부착물 운영 기준',
         keywords: ['게시물', '부착물', '게시판', '포스터', '홍보', '부착', '품의', '게시', '철거'],
-        content: \`
+        content: `
             <h1>📌 게시물/부착물 운영 기준</h1>
 
             <h2>운영 절차</h2>
@@ -1017,7 +1017,7 @@ const data = [
                 <div>※ 승인을 받지 않은 게시물 또는 게시 기한이 지났으나 철거하지 않은 게시물은 별도 안내 없이 회수/폐기<br>
                 ※ 종교/정치 관련 또는 회사 운영/업무 목적에 부합하지 않는 게시물은 지원 불가</div>
             </div>
-        \`
+        `
     },
     {
         id: 'life-carwash',
@@ -1025,7 +1025,7 @@ const data = [
         categoryName: '생활 지원',
         title: '하누리 스팀세차',
         keywords: ['세차', '하누리', '스팀세차', '차량', '세차장'],
-        content: \`
+        content: `
             <h1>🚗 하누리 스팀세차</h1>
 
             <h2>신청 방법</h2>
@@ -1064,7 +1064,7 @@ const data = [
                 ※ 사내 부부의 경우에도 동일 차량 중복 신청 불가<br>
                 ※ 당첨 후 개인사유로 취소 시 3개월 패널티 적용</div>
             </div>
-        \`
+        `
     },
     {
         id: 'life-sandy',
@@ -1072,7 +1072,7 @@ const data = [
         categoryName: '생활 지원',
         title: '샌디앱 등록/사용 방법',
         keywords: ['샌디앱', '샌디', 'sandy', '앱', '식당메뉴', 'ID카드', '식대', '통근버스', '무인택배', '물품대여', '우산', '공구', '도와주세요'],
-        content: \`
+        content: `
             <h1>📱 샌디앱 등록/사용 방법</h1>
 
             <h2>주요 메뉴</h2>
@@ -1103,7 +1103,7 @@ const data = [
                     문의 가능 시간: 평일 09:00 ~ 17:00
                 </div>
             </div>
-        \`
+        `
     },
     {
         id: 'life-mail',
@@ -1111,7 +1111,7 @@ const data = [
         categoryName: '생활 지원',
         title: '문서 행낭 / 등기 / 택배',
         keywords: ['행낭', '등기', '택배', '문서', '발송', '우편', '편의점택배', '판토스', '시료', '자재', '업무지원센터', '메일센터'],
-        content: \`
+        content: `
             <h1>📦 문서 행낭 / 등기 / 택배</h1>
 
             <h2>문서 행낭 발송 방법</h2>
@@ -1151,7 +1151,7 @@ const data = [
 
             <h2>해외 발송</h2>
             <p>📞 판토스: 2033-5604</p>
-        \`
+        `
     },
     {
         id: 'life-security-detail',
@@ -1159,7 +1159,7 @@ const data = [
         categoryName: '생활 지원',
         title: '정보보안 (물리보안 상세)',
         keywords: ['정보보안', '물리보안', 'Mobile On', '모바일온', 'X-ray', '보안검색', '통문', '출입권한', '제한구역', '실험실', 'Security Portal', '휴대기기', '홀로그램', '비정형품의', 'SLC', '보안서약', 'CCTV', 'ID카드', '반출입', '정보보호지원센터'],
-        content: \`
+        content: `
             <h1>🔐 정보보안 (물리보안 상세)</h1>
 
             <h2>보안검색존 안내</h2>
@@ -1226,7 +1226,7 @@ const data = [
             <h2>Mobile On 설치</h2>
             <p>📱 <a href="http://mobileonv3.lge.com" target="_blank" style="color:#c97bb6;">http://mobileonv3.lge.com</a> URL 접속 → 앱 다운 설치 or 1544-5770 Help desk 설치앱 SMS 요청</p>
             <p>상세 설치 가이드: sp.lge.com 접속 → 우측 상단 정보보호가이드 → 모바일 보안 → Mobile ON 설치가이드&FAQ</p>
-        \`
+        `
     },
     {
         id: 'life-emergency',
@@ -1234,7 +1234,7 @@ const data = [
         categoryName: '생활 지원',
         title: '응급의료기기 / 비상상황 행동요령',
         keywords: ['응급', '의료', 'AED', 'CPR', '심폐소생술', '자동심장충격기', '비상', '화재', '대피', '비상대피', '소방', '관제센터', '1119', '피난', '비상계단', '집결지', 'LG아트센터'],
-        content: \`
+        content: `
             <h1>🚨 응급의료기기 / 비상상황 행동요령</h1>
 
             <h2>🏥 응급의료기기 설치위치</h2>
@@ -1280,7 +1280,7 @@ const data = [
                     📞 통합관제센터: <strong>02-2033-1119</strong>
                 </div>
             </div>
-        \`
+        `
     },
     {
         id: 'life-contacts',
@@ -1288,7 +1288,7 @@ const data = [
         categoryName: '생활 지원',
         title: '업무지원 부서 연락처 (Contact Point)',
         keywords: ['연락처', '담당자', '총무팀', '안전보건', '정보보호', '환경시설', 'Contact', '문의', '전화번호', '내선', '채승우', '이배성', '홍의표', '신동근', '황선흥', '이원영', '박형기', '홍재화', '장준혁'],
-        content: \`
+        content: `
             <h1>📞 업무지원 부서 연락처</h1>
 
             <h2>총무팀</h2>
@@ -1357,7 +1357,7 @@ const data = [
                 <tr><td>환경관리(대기/수질), 환경설비</td><td>전보현 선임</td></tr>
                 <tr><td>개인용 전기/전열기기 신청/승인</td><td>이아현 사원</td></tr>
             </table>
-        \`
+        `
     }
 ];
 

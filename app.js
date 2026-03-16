@@ -409,44 +409,6 @@ const data = [
         `
     },
     {
-        id: 'w-daycare',
-        category: 'w-building',
-        categoryName: 'W동',
-        title: '어린이집',
-        keywords: ['어린이집', '보육', '어린이', '육아', '모아맘', 'ISC', 'W7동', '원아모집', '입소'],
-        content: `
-            <h1>👶 어린이집</h1>
-
-            <h2>운영 현황</h2>
-            <table>
-                <tr><th>구분</th><th>계열사 통합 운영</th><th>전자 단독 운영</th></tr>
-                <tr><td><strong>보육정원</strong></td><td>300명 (전자 132명)</td><td>100명</td></tr>
-                <tr><td><strong>교사</strong></td><td>49명</td><td>27명</td></tr>
-                <tr><td><strong>위치</strong></td><td>ISC(통합지원센터) 1~2F</td><td>W7동 1F</td></tr>
-                <tr><td><strong>위탁운영</strong></td><td>모아맘보육재단</td><td>모아맘보육재단</td></tr>
-                <tr><td><strong>운영시간</strong></td><td colspan="2">07:30 ~ 19:30</td></tr>
-            </table>
-
-            <h2>입소 우선 순위</h2>
-            <ol>
-                <li>한부모가정 또는 장애 정도가 심한 자의 자녀</li>
-                <li>(맞벌이) 미수혜자 (세자녀이상 > 당사 부부사원)</li>
-                <li>(맞벌이) 기수혜자</li>
-                <li>(외벌이) 미수혜자</li>
-                <li>(외벌이) 기수혜자</li>
-            </ol>
-
-            <div class="info-box">
-                <i class="fas fa-info-circle"></i>
-                <div>
-                    <strong>원아 모집 시기:</strong> 매년 정기 원아 모집 1회 진행 (10월 경 전사 게시판에서 확인 가능)<br>
-                    <strong>신청방법:</strong> EP > Biz Support > 어린이집 > 신청 → 결과 개별 통보 및 서류제출<br>
-                    ※ 수시모집은 결원 시 차순위자 입소
-                </div>
-            </div>
-        `
-    },
-    {
         id: 'w-parking',
         category: 'w-building',
         categoryName: 'W동',
@@ -1367,7 +1329,7 @@ const categories = {
         name: 'W동',
         icon: 'fas fa-building',
         emoji: '🏢',
-        items: ['w-access', 'w-classroom', 'w-security', 'w-network', 'w-facilities', 'w-commute', 'w-daycare', 'w-parking']
+        items: ['w-access', 'w-classroom', 'w-security', 'w-network', 'w-facilities', 'w-commute', 'w-parking']
     },
     'isc': {
         name: 'ISC',

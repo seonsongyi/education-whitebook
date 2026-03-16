@@ -1061,10 +1061,16 @@ function generateBotAnswer(query) {
 
     // 가장 관련도 높은 항목 선택
     const top = results[0];
-    const plainText = top.content.replace(/<[^>]*>/g, '');
+    // 링크(<a> 태그)는 보존하고 나머지 HTML만 제거
+    const linkPreservedText = top.content
+        .replace(/<a\s/g, '%%%LINK_START%%%<a ')
+        .replace(/<\/a>/g, '</a>%%%LINK_END%%%')
+        .replace(/<[^>]*>/g, '')
+        .replace(/%%%LINK_START%%%/g, '')
+        .replace(/%%%LINK_END%%%/g, '');
 
-    // 질문 키워드가 포함된 문장 추출
-    let snippet = extractRelevantSnippet(plainText, terms);
+    // 질문 키워드가 포함된 문장 추출 (링크 포함)
+    let snippet = extractRelevantSnippet(linkPreservedText, terms);
 
     let answer = `🐰💜 <em>${top.title}</em> 에서 찾았어요!<br><br>${snippet}`;
 

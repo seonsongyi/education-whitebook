@@ -268,6 +268,242 @@ const data = [
         `
     },
 
+    {
+        id: 'w-facilities',
+        category: 'w-building',
+        categoryName: 'W동',
+        title: '편의시설 안내 (식당/카페/지원센터)',
+        keywords: ['편의시설', '식당', '카페', '편의점', '아워홈', 'CJ', 'GS25', '건강관리실', '피트니스', '탁구장', '어린이집', '하이프라자', 'L카페', '베이커리', '우리은행', 'TTT카페', '레드캡', '도움마당', '안내데스크', '운영시간', '사내식당', '풀무원', '맘스터치', '석관동떡볶이', '업무지원센터', '메일센터', 'PC유지보수', '정보보호지원센터', '모성보호실'],
+        content: \`
+            <h1>🏬 편의시설 안내</h1>
+
+            <h2>🍽️ 사내식당 운영</h2>
+            <table>
+                <tr><th>구분</th><th>명칭</th><th>운영시간</th><th>연락처</th></tr>
+                <tr><td><strong>임직원 식당</strong></td><td>아워홈/CJ</td><td>조식 07:20~08:20 / 중식 11:30~13:30 / 석식 17:30~18:30</td><td>아워홈 2033-1161~4 / CJ 2033-1083~4</td></tr>
+                <tr><td><strong>Dining Hall</strong></td><td>-</td><td>별도요청</td><td>2033-1185</td></tr>
+            </table>
+
+            <h3>🍱 풀무원 사내식당 이용 방법 (ISC 지하 1층)</h3>
+            <ul>
+                <li>LG전자 전용 리더기로 이용</li>
+                <li>상주 임직원 외 인원은 <strong>식권 구매</strong>하여 식사</li>
+                <li>식권 구매 시간: AM 07:30~08:30 / AM 10:00~11:00 (풀무원 식당 내 G카페에서 구매 가능)</li>
+            </ul>
+
+            <h2>☕ 카페 / 편의시설</h2>
+            <table>
+                <tr><th>구분</th><th>명칭</th><th>운영시간</th><th>연락처</th></tr>
+                <tr><td>편의점</td><td>GS25 (1단계)</td><td>07:00~22:00</td><td>-</td></tr>
+                <tr><td>편의점</td><td>GS25 (2단계)</td><td>07:00~21:00 (야간/휴일 무인운영)</td><td>-</td></tr>
+                <tr><td>카페</td><td>하누리 Café</td><td>07:30~18:30</td><td>-</td></tr>
+                <tr><td>카페</td><td>L Café (ISC B1)</td><td>07:20~18:30</td><td>-</td></tr>
+                <tr><td>카페</td><td>TTT Café (ISC B1)</td><td>07:30~17:00</td><td>-</td></tr>
+                <tr><td>휴대폰 매장</td><td>-</td><td>09:00~18:00</td><td>6952-1431</td></tr>
+                <tr><td>은행</td><td>SC제일은행 출장상담소</td><td>11:00~15:00</td><td>2661-0071</td></tr>
+                <tr><td>가전매장</td><td>LG전자 베스트샵 (ISC B1)</td><td>08:00~19:00</td><td>6952-1441</td></tr>
+                <tr><td>생활건강</td><td>LG생활건강 Shop (ISC B1)</td><td>10:00~19:00</td><td>6987-1098</td></tr>
+                <tr><td>여행사</td><td>레드캡투어 (ISC B1)</td><td>09:00~17:00</td><td>2139-2784</td></tr>
+                <tr><td>은행</td><td>우리은행 (ISC B1)</td><td>09:00~16:00</td><td>2135-1750</td></tr>
+                <tr><td>출력</td><td>출력서비스 LG CNS (ISC B1)</td><td>09:00~18:00</td><td>6932-3434</td></tr>
+                <tr><td>통신</td><td>LG U+ (ISC B1)</td><td>08:00~19:30</td><td>070-4062-1358</td></tr>
+            </table>
+
+            <h2>🏥 지원센터 / 복지시설</h2>
+            <table>
+                <tr><th>시설명</th><th>운영시간</th><th>연락처</th></tr>
+                <tr><td>건강관리실</td><td>08:30~17:30</td><td>2033-1147</td></tr>
+                <tr><td>마음나눔상담센터</td><td>-</td><td>2033-1146</td></tr>
+                <tr><td>업무지원센터 (북/남)</td><td>08:30~18:30</td><td>2033-1145 / 2033-1152</td></tr>
+                <tr><td>메일센터</td><td>-</td><td>2033-1134</td></tr>
+                <tr><td>PC유지보수센터</td><td>-</td><td>2033-1136</td></tr>
+                <tr><td>시료 폐기실</td><td>08:30~17:30</td><td>2033-1158</td></tr>
+                <tr><td>정보보호지원센터</td><td>08:30~17:30</td><td>2033-1144</td></tr>
+                <tr><td>모성보호실</td><td>24시간 운영</td><td>-</td></tr>
+                <tr><td>Fitness Center / 샤워실</td><td>06:00~08:30 / 11:30~13:30 / 17:30~21:00</td><td>2033-8282</td></tr>
+                <tr><td>도움마당</td><td>-</td><td>2033-8282</td></tr>
+            </table>
+
+            <h2>📍 각 동 1F 안내데스크</h2>
+            <table>
+                <tr><th>위치</th><th>연락처</th><th>운영시간</th><th>지원업무</th></tr>
+                <tr><td>W1동</td><td>2030-2114</td><td rowspan="4">08:00~19:00</td><td rowspan="4">방문자 출입 지원, 파트너십 룸 예약, 위치/연락처 안내</td></tr>
+                <tr><td>W2동</td><td>2033-1107</td></tr>
+                <tr><td>W3 / W5동</td><td>0-2113 / 2112</td></tr>
+                <tr><td>W4 / W6동</td><td>3-1106 / 1105</td></tr>
+            </table>
+        \`
+    },
+    {
+        id: 'w-commute',
+        category: 'w-building',
+        categoryName: 'W동',
+        title: '통근버스 / 셔틀버스',
+        keywords: ['통근버스', '셔틀', '셔틀버스', '버스', '출퇴근', '퇴근', '출근', '노선', '탑승', '엣스퍼트', 'APP', '평택', '인천', '서초', '가산', '마곡', '통근', '정류장'],
+        content: \`
+            <h1>🚌 통근버스 / 셔틀버스</h1>
+
+            <h2>통근버스 운영 현황</h2>
+            <ul>
+                <li>출근 버스 <strong>225대</strong>, 퇴근 버스 <strong>116대</strong> 운행</li>
+                <li>퇴근 통근버스는 주정차 공간상의 제약을 고려하여 <strong>3회차 분승 운행</strong></li>
+                <li>1회차: 17:50 / 2회차: 18:20 / 3회차: 19:20</li>
+            </ul>
+
+            <h2>탑승 권한</h2>
+            <ul>
+                <li>각 사업장 정보보호팀을 통해 <strong>ID카드를 정상 발급</strong> 받을 시 자동 부여</li>
+                <li>ID카드 교체로 당일 통근/셔틀 이용 시 태깅이 안되는 경우, 단말기 상에 <strong>'사번' 입력</strong>하여 탑승 가능</li>
+            </ul>
+
+            <h2>📱 통근버스 APP 설치</h2>
+            <div class="info-box">
+                <i class="fas fa-mobile-alt"></i>
+                <div>
+                    Play스토어 → <strong>'엣스퍼트 통근버스'</strong> 검색 → APP 다운로드/설치 → 회원가입 or 로그인<br>
+                    사업장설정 변경: APP 로그인 → 우측 상단 '≡' → '관리' → 관심지역(사업장) 변경<br>
+                    문의: [출근] 02-6987-1333,1334 (06:30~15:30) / [퇴근] 02-6987-1336 (08:30~19:30)
+                </div>
+            </div>
+
+            <h2>🚐 사업장간 셔틀버스 운행시간</h2>
+            <h3>마곡 ↔ 평택</h3>
+            <table>
+                <tr><th>구간</th><th>출발</th><th>도착</th></tr>
+                <tr><td>마곡 → 평택 (오전)</td><td>08:50</td><td>11:00</td></tr>
+                <tr><td>마곡 → 평택 (오후)</td><td>13:20</td><td>15:10</td></tr>
+                <tr><td>평택 → 마곡 (오전)</td><td>11:20</td><td>13:30</td></tr>
+                <tr><td>평택 → 마곡 (오후)</td><td>15:30</td><td>17:10</td></tr>
+            </table>
+
+            <h3>마곡 ↔ 인천</h3>
+            <table>
+                <tr><th>구간</th><th>출발</th><th>도착</th></tr>
+                <tr><td>마곡 → 인천 (오전)</td><td>09:00</td><td>09:40</td></tr>
+                <tr><td>마곡 → 인천 (오후)</td><td>15:00</td><td>15:40</td></tr>
+                <tr><td>인천 → 마곡 (오전)</td><td>10:00</td><td>10:40</td></tr>
+                <tr><td>인천 → 마곡 (오후)</td><td>16:00</td><td>16:40</td></tr>
+            </table>
+
+            <h3>마곡 ↔ 서초</h3>
+            <table>
+                <tr><th>구간</th><th>출발</th><th>도착</th></tr>
+                <tr><td>마곡 → 서초 (오전)</td><td>08:40</td><td>10:00</td></tr>
+                <tr><td>서초 → 마곡 (오후)</td><td>10:30</td><td>11:50</td></tr>
+            </table>
+
+            <h3>마곡 ↔ 가산</h3>
+            <table>
+                <tr><th>구간</th><th>출발</th><th>도착</th></tr>
+                <tr><td>마곡 → 가산 (오전)</td><td>09:00</td><td>10:00</td></tr>
+                <tr><td>마곡 → 가산 (오후)</td><td>13:30</td><td>14:30</td></tr>
+                <tr><td>가산 → 마곡 (오전)</td><td>10:30</td><td>11:30</td></tr>
+                <tr><td>가산 → 마곡 (오후)</td><td>15:00</td><td>16:00</td></tr>
+            </table>
+
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>※ 셔틀버스 및 분실물 관련 문의사항은 <strong>02-6987-1334,6</strong>으로 연락주시기 바랍니다.<br>
+                ※ 퇴근 승강장은 차량 진입 순서에 따라 노선별 승차 위치가 변경될 수 있으며, 실시간 차량 진입 순서는 '엣스퍼트 통근버스 APP'에서 확인 가능합니다.</div>
+            </div>
+        \`
+    },
+    {
+        id: 'w-daycare',
+        category: 'w-building',
+        categoryName: 'W동',
+        title: '어린이집',
+        keywords: ['어린이집', '보육', '어린이', '육아', '모아맘', 'ISC', 'W7동', '원아모집', '입소'],
+        content: \`
+            <h1>👶 어린이집</h1>
+
+            <h2>운영 현황</h2>
+            <table>
+                <tr><th>구분</th><th>계열사 통합 운영</th><th>전자 단독 운영</th></tr>
+                <tr><td><strong>보육정원</strong></td><td>300명 (전자 132명)</td><td>100명</td></tr>
+                <tr><td><strong>교사</strong></td><td>49명</td><td>27명</td></tr>
+                <tr><td><strong>위치</strong></td><td>ISC(통합지원센터) 1~2F</td><td>W7동 1F</td></tr>
+                <tr><td><strong>위탁운영</strong></td><td>모아맘보육재단</td><td>모아맘보육재단</td></tr>
+                <tr><td><strong>운영시간</strong></td><td colspan="2">07:30 ~ 19:30</td></tr>
+            </table>
+
+            <h2>입소 우선 순위</h2>
+            <ol>
+                <li>한부모가정 또는 장애 정도가 심한 자의 자녀</li>
+                <li>(맞벌이) 미수혜자 (세자녀이상 > 당사 부부사원)</li>
+                <li>(맞벌이) 기수혜자</li>
+                <li>(외벌이) 미수혜자</li>
+                <li>(외벌이) 기수혜자</li>
+            </ol>
+
+            <div class="info-box">
+                <i class="fas fa-info-circle"></i>
+                <div>
+                    <strong>원아 모집 시기:</strong> 매년 정기 원아 모집 1회 진행 (10월 경 전사 게시판에서 확인 가능)<br>
+                    <strong>신청방법:</strong> EP > Biz Support > 어린이집 > 신청 → 결과 개별 통보 및 서류제출<br>
+                    ※ 수시모집은 결원 시 차순위자 입소
+                </div>
+            </div>
+        \`
+    },
+    {
+        id: 'w-parking',
+        category: 'w-building',
+        categoryName: 'W동',
+        title: '주차장 / 전기차 충전소',
+        keywords: ['주차', '주차장', '주차권', '정기권', '일일주차', '방문주차', '전기차', '충전소', '충전', 'EV', '지하주차장', '주차석', '경차', '장애인', 'portal.lgsp.co.kr'],
+        content: \`
+            <h1>🅿️ 주차장 / 전기차 충전소</h1>
+
+            <h2>주차장 현황</h2>
+            <p>주차석: <strong>2,371석</strong> (여성 전용 287석, 장애인 70석, 경차 228석, 전기차 46석 포함)</p>
+
+            <h2>정기주차권</h2>
+            <ul>
+                <li>년 2회(상/하반기) 입주조직의 인원 50% + 면적 50% 비율로 본부/부문별 배부</li>
+                <li>조직 내 양도 가능하며, 30% 미만(워킹데이 기준) 사용 시 1차 독려 → 2차 회수 조치</li>
+                <li>등록 경로: SP Portal > Support > 주차 > 정기주차권 > 정기주차권 ID 등록</li>
+            </ul>
+
+            <h2>일일주차권 신청</h2>
+            <ul>
+                <li>자차를 이용하여 출퇴근이 필요한 임직원 신청 가능</li>
+                <li><strong>경로:</strong> 사이언스파크 포탈 (<a href="https://portal.lgsp.co.kr" target="_blank" style="color:#c97bb6;">https://portal.lgsp.co.kr</a>) > Support > 주차 > 일일주차권 신청</li>
+                <li>추첨 방법: Random 추첨 (당첨자 제한 없음)</li>
+                <li>신청가능시간: 09시 ~ 14시 50분 / 당첨시간: 근무일 기준 입차 전일 15시</li>
+            </ul>
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>※ 당첨 후 미입차 시 <strong>2주간 시스템 신청 불가</strong> 패널티가 부과됩니다.<br>
+                ※ 양일간 당첨되어도 반드시 출차 후 재입차 해야 합니다.</div>
+            </div>
+
+            <h2>방문 주차 신청</h2>
+            <ul>
+                <li>업무 목적으로 방문자의 차량 입/출차 필요 시 신청 가능</li>
+                <li><strong>경로:</strong> 사이언스파크 포탈 > Support > 주차 > 전용건물 방문주차</li>
+                <li>승인절차 없이 저장 후 즉시 입차 가능</li>
+            </ul>
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>※ 임직원 차량이 방문주차 차량으로 위장 신청하여 적발 시 <strong>경고 및 영구차단</strong> 조치<br>
+                ※ 마곡 상주 임직원이 마곡 상주 인원 차량을 등록해줄 경우 위반 대상</div>
+            </div>
+
+            <h2>임직원 휴일주차 신청</h2>
+            <ul>
+                <li>주말/공휴일의 경우 하루 1대에 한하여 주차 신청 가능</li>
+                <li><strong>경로:</strong> 사이언스파크 포탈 > Support > 주차 > 임직원 휴일 주차</li>
+            </ul>
+
+            <h2>⚡ 전기차 충전소</h2>
+            <ul>
+                <li>설치 현황: 총 46대 운영 (1단계 24대 운영, 2단계 추가 20대 설치)</li>
+                <li>이용시간: <strong>07:00 ~ 18:00</strong> (18시 이후에는 충전 종료 및 이동주차)</li>
+            </ul>
+        \`
+    },
+
     // ===== ISC =====
     {
         id: 'isc-reservation',
@@ -659,6 +895,469 @@ const data = [
                 <div>마곡 지역은 지속적으로 개발 중이므로, 신규 매장 정보는 교육운영 담당자에게 문의해 주세요.</div>
             </div>
         `
+    },
+
+    // ===== 생활 지원 =====
+    {
+        id: 'life-meeting-detail',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '공용회의실 예약 및 운영규정',
+        keywords: ['공용회의실', 'EP', '예약', '이메일', '회의실', 'Auditorium', 'Conference', 'Innovation Hall', 'Reinvent Hall', 'Camp Park', 'mgmr', '오디토리움', '컨퍼런스룸', '회의실예약', '패널티', 'No Show', '예약패드', '입실'],
+        content: \`
+            <h1>🏛️ 공용회의실 예약 및 운영규정</h1>
+
+            <h2>EP 시스템 예약 방법</h2>
+            <div class="info-box">
+                <i class="fas fa-desktop"></i>
+                <div>LGEP → Biz. Support → 회의실 예약 → 회의실 장소선택(동/회의실호수) → 날짜/시간 선택 → 회의명 기입 → 신청<br>
+                ※ 입실 시 회의실 앞 패널 <strong>'입실확인' 터치 必</strong><br>
+                ※ 예약 후 10분 초과 시 '입실' 버튼 미터치 시 회의예약 자동 취소</div>
+            </div>
+
+            <h2>E-mail 예약 방법</h2>
+            <p>📧 <a href="mailto:mgmr@lge.com" style="color:#c97bb6;">마곡공용회의실 (mgmr@lge.com)</a> 으로 아래 양식으로 메일 발송</p>
+            <div class="info-box">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <strong>제목:</strong> OO 회의실 예약신청<br>
+                    1. 회의 일시: O월 O일 00시~00시<br>
+                    2. 예약회의실: OO 회의실<br>
+                    3. 회의명: 외부 OO고객사 Buyer Meeting<br>
+                    4. 회의참석인원: 총 OO명<br>
+                    5. 주요참석자: VIP, OO 임원<br>
+                    6. 예약자 이름/본부/연락처:<br>
+                    7. 기타사항: ex) 기자재, 레이아웃 요청
+                </div>
+            </div>
+
+            <h2>운영 규정</h2>
+            <table>
+                <tr><th>항목</th><th>내용</th></tr>
+                <tr><td><strong>사용목적</strong></td><td>업무 회의 및 주요 거래선 미팅 등 회의 용도로만 사용 가능 (Task/개발/실험 공간 사용 금지)</td></tr>
+                <tr><td><strong>예약기간</strong></td><td>사전 예약 최대 1개월 전부터 가능, 최대 예약 기간 2일 (3일 이상 시 반려, 조직책임자 품의 시 최대 5일)</td></tr>
+                <tr><td><strong>운영시간</strong></td><td>08:30~17:30 (초과 사용 시 담당자와 사전 협의)</td></tr>
+                <tr><td><strong>Penalty</strong></td><td>위반 시 신청자 소속 조직 3개월간 후순위 배정</td></tr>
+            </table>
+
+            <h3>준수 사항</h3>
+            <ol>
+                <li>회의실 내 소모품 및 기자재 외부 반출 금지</li>
+                <li>관리자 승인 없이 이용자간 회의실 양도 금지</li>
+                <li>개인업무 용도 회의실 독점 예약/사용 금지</li>
+                <li>예약 시간 준수 (초과 사용 시 관리자에게 사전 공유)</li>
+                <li>수용인원 초과 사용 불가</li>
+                <li>사용 후 원상 복구 (OA 전원 Off, 화이트보드 지우기, 책걸상 정리, 청소)</li>
+                <li>사전 협의 없이 음식물 반입 금지</li>
+                <li>미사용 시 최소 1일 전 담당자에게 공유, <strong>No Show 절대 금지!</strong></li>
+            </ol>
+
+            <h2>E-mail 예약 회의실 현황</h2>
+            <table>
+                <tr><th>위치</th><th>명칭</th><th>수용인원</th><th>비고</th></tr>
+                <tr><td>B1F</td><td>Auditorium</td><td>96~270석</td><td>마이크(최대 4개), 조명, 현수막 설치 가능</td></tr>
+                <tr><td>B1F</td><td>Conference Room</td><td>52석</td><td>동시통역 장비 사용 가능</td></tr>
+                <tr><td>B1F</td><td>1번 회의실</td><td>22석</td><td>빔, 음향</td></tr>
+                <tr><td>B1F</td><td>2번 회의실</td><td>18석</td><td>빔, 화상, 음향</td></tr>
+                <tr><td>B1F</td><td>Decision Room</td><td>12석</td><td>VIP룸 - 자사 임원 참석 시</td></tr>
+                <tr><td>W5 1F</td><td>Conference Room</td><td>43석</td><td>VIP룸</td></tr>
+                <tr><td>W6 1F</td><td>대회의실</td><td>41석</td><td>VIP룸, 컨퍼런스 콜 사전 요청</td></tr>
+                <tr><td>W10 1F</td><td>대회의실/중회의실</td><td>25/20석</td><td>빔, TV, 음향</td></tr>
+                <tr><td>3F 브릿지</td><td>Camp Park 1</td><td>40석</td><td>통합 시 70석, 음향 사용 가능</td></tr>
+                <tr><td>3F 브릿지</td><td>Camp Park 2</td><td>30석</td><td>Camp Park 1,2 통합 시에만 음향</td></tr>
+                <tr><td>3F 브릿지</td><td>Camp Park 3</td><td>40석</td><td>빔</td></tr>
+                <tr><td>W7~10 B1F</td><td>Innovation Hall</td><td>54석</td><td>양쪽 TV 설치</td></tr>
+                <tr><td>W7~10 B1F</td><td>Reinvent Hall</td><td>52석</td><td>빔, TV, 화상, 음향</td></tr>
+            </table>
+
+            <p>📞 회의실 관련 문의: <a href="mailto:mgmr@lge.com" style="color:#c97bb6;">마곡공용회의실 (mgmr@lge.com)</a>, 마곡총무팀 (<a href="mailto:forest.shin@lge.com" style="color:#c97bb6;">forest.shin@lge.com</a>)</p>
+        \`
+    },
+    {
+        id: 'life-posting',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '게시물/부착물 운영 기준',
+        keywords: ['게시물', '부착물', '게시판', '포스터', '홍보', '부착', '품의', '게시', '철거'],
+        content: \`
+            <h1>📌 게시물/부착물 운영 기준</h1>
+
+            <h2>운영 절차</h2>
+            <div class="info-box">
+                <i class="fas fa-clipboard-list"></i>
+                <div>EP 품의 작성 → 소속 HR조직(노경/조직문화) 승인 → 마곡총무팀장 승인 → 총무팀 방문하여 도장 날인 → 부착 → 철거 (게시기간 종료 후)</div>
+            </div>
+
+            <h2>게시판 위치</h2>
+            <table>
+                <tr><th>구분</th><th>위치</th><th>지원 게시물</th></tr>
+                <tr><td>공용</td><td>B1F EV홀 게시판 / 3F 남북브릿지 게시판</td><td>전체공지 또는 본부 홍보 게시물</td></tr>
+                <tr><td>공용</td><td>B1F 식당중앙 게시판</td><td>전체공지 목적 게시물</td></tr>
+                <tr><td>전용</td><td>각동 층별 EV홀 벽면</td><td>본부 홍보목적 게시물</td></tr>
+            </table>
+
+            <h2>품의 작성 내용</h2>
+            <div class="info-box">
+                <i class="fas fa-file-alt"></i>
+                <div>
+                    <strong>제목:</strong> 사이언스파크 게시물 부착 승인 요청(OO본부/부문)<br><br>
+                    1. 게시물 내용: OO본부 XXX행사의 건<br>
+                    2. 게시장소 및 개수: W4동 3층 E/V홀 (1개소)<br>
+                    3. 게시기간: 2025년 7월 13일(월) ~ 17일(금)<br>
+                    4. 담당자: OO본부 OOO팀 OOO책임<br>
+                    5. 비고: 게시기간 종료 후 부착 담당자가 직접 제거 예정<br>
+                    ※ 첨부: 게시물 O부<br><br>
+                    <strong>결재선:</strong> 1차 소속 HR조직 담당자 → 2차 마곡총무팀장<br>
+                    <strong>참조자:</strong> 마곡노경파트 진성현 책임, 마곡총무팀 이원영 책임
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>※ 승인을 받지 않은 게시물 또는 게시 기한이 지났으나 철거하지 않은 게시물은 별도 안내 없이 회수/폐기<br>
+                ※ 종교/정치 관련 또는 회사 운영/업무 목적에 부합하지 않는 게시물은 지원 불가</div>
+            </div>
+        \`
+    },
+    {
+        id: 'life-carwash',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '하누리 스팀세차',
+        keywords: ['세차', '하누리', '스팀세차', '차량', '세차장'],
+        content: \`
+            <h1>🚗 하누리 스팀세차</h1>
+
+            <h2>신청 방법</h2>
+            <div class="info-box">
+                <i class="fas fa-mouse-pointer"></i>
+                <div>Work → Request-Map → <strong>하누리 or 스팀세차</strong> 검색 → 하누리 스팀세차 클릭 → 세차 신청</div>
+            </div>
+
+            <h2>세차 정보</h2>
+            <ul>
+                <li><strong>세차장소:</strong> W6동 지하 2F (310 기둥앞)</li>
+                <li><strong>연락처:</strong> 2033-4855</li>
+            </ul>
+
+            <h2>세차 단가 (실내+실외)</h2>
+            <table>
+                <tr><th>차종</th><th>가격</th></tr>
+                <tr><td>경차</td><td>8,000원</td></tr>
+                <tr><td>승용차</td><td>10,000원</td></tr>
+                <tr><td>SUV</td><td>14,000원</td></tr>
+                <tr><td>승합</td><td>20,000원</td></tr>
+            </table>
+
+            <h2>이용 절차</h2>
+            <ol>
+                <li>차량 입고 (차량 Key 전달/보관 - Key 투입구 이용)</li>
+                <li>스팀 세차 진행</li>
+                <li>세차완료 문자 발송</li>
+                <li>결제 후 출차 (신용카드만 결제 가능)</li>
+            </ol>
+
+            <div class="warning-box">
+                <i class="fas fa-exclamation-triangle"></i>
+                <div>※ 당첨자의 경우 당첨 후 3개월 이후부터 재신청 가능<br>
+                ※ 세차 당첨은 양도 불가, 반드시 본인명의 차량만 수혜 가능<br>
+                ※ 사내 부부의 경우에도 동일 차량 중복 신청 불가<br>
+                ※ 당첨 후 개인사유로 취소 시 3개월 패널티 적용</div>
+            </div>
+        \`
+    },
+    {
+        id: 'life-sandy',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '샌디앱 등록/사용 방법',
+        keywords: ['샌디앱', '샌디', 'sandy', '앱', '식당메뉴', 'ID카드', '식대', '통근버스', '무인택배', '물품대여', '우산', '공구', '도와주세요'],
+        content: \`
+            <h1>📱 샌디앱 등록/사용 방법</h1>
+
+            <h2>주요 메뉴</h2>
+            <table>
+                <tr><th>메뉴</th><th>기능</th></tr>
+                <tr><td><strong>사원식당</strong></td><td>식당 메뉴 확인 (일간, 주간)</td></tr>
+                <tr><td><strong>ID카드 식대 잔액</strong></td><td>현재 본인 ID카드에 충전된 식대 금액 확인</td></tr>
+                <tr><td><strong>통근버스/통근민원</strong></td><td>통근버스 및 사업장 셔틀버스 노선 확인 및 민원 접수</td></tr>
+                <tr><td><strong>무인택배</strong></td><td>B1동 ISC 연결통로 무인택배 신청 (회원 가입 및 보안 통문 별도)</td></tr>
+                <tr><td><strong>우산/물품/공구 대여</strong></td><td>14개 품목에 대한 대여신청 (B1 업무지원센터에서 수령)</td></tr>
+                <tr><td><strong>도와주세요</strong></td><td>위험 및 고장 신고, 청소요청, 냉난방 신청 등</td></tr>
+            </table>
+
+            <h2>대여 가능 품목</h2>
+            <table>
+                <tr><th>항목</th><th>대여 가능 품목</th></tr>
+                <tr><td><strong>물품 대여</strong></td><td>카메라, 스피커, 포스터 스탠드, 이동 카트, 피크닉 매트, 휴대용 청소기, 철제 X배너, 손풍기</td></tr>
+                <tr><td><strong>우산 대여</strong></td><td>UV차단 양산, 파인애플 우산</td></tr>
+                <tr><td><strong>공구 대여</strong></td><td>아크릴 삼각 명판, 수공구 세트, 헤머 드릴</td></tr>
+            </table>
+
+            <div class="info-box">
+                <i class="fas fa-question-circle"></i>
+                <div>
+                    <strong>문의사항 (설치 및 기능 관련)</strong><br>
+                    카카오톡 채널: <a href="http://pf.kakao.com/_xhJxkZK" target="_blank" style="color:#c97bb6;">http://pf.kakao.com/_xhJxkZK</a><br>
+                    이메일: <a href="mailto:sandiapp@sni.co.kr" style="color:#c97bb6;">sandiapp@sni.co.kr</a><br>
+                    문의 가능 시간: 평일 09:00 ~ 17:00
+                </div>
+            </div>
+        \`
+    },
+    {
+        id: 'life-mail',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '문서 행낭 / 등기 / 택배',
+        keywords: ['행낭', '등기', '택배', '문서', '발송', '우편', '편의점택배', '판토스', '시료', '자재', '업무지원센터', '메일센터'],
+        content: \`
+            <h1>📦 문서 행낭 / 등기 / 택배</h1>
+
+            <h2>문서 행낭 발송 방법</h2>
+            <div class="info-box">
+                <i class="fas fa-paper-plane"></i>
+                <div>업무지원센터 방문 → 발송대장 작성 후 발송함에 물건 적재 → 접수된 물건 확인 후 행낭가방에 정리 → 행낭 전문 업체 통해 수/발신 → 수신한 물품 업무지원센터에서 정리/메일 발송 → 물품 전달</div>
+            </div>
+
+            <h2>행낭 수신일 안내</h2>
+            <table>
+                <tr><th>발신 → 수신</th><th>수신일</th><th>비고</th></tr>
+                <tr><td>마곡 → 트윈</td><td>다음날 오전</td><td>-</td></tr>
+                <tr><td>마곡 → 인사서비스센터</td><td>다음날 오전</td><td>-</td></tr>
+                <tr><td>마곡 → 서울역</td><td>다음날 오후</td><td>-</td></tr>
+                <tr><td>마곡 → 그 외 사업장</td><td>다다음날 오후 (2~3일)</td><td>서초, 인천, 창원, 구미 등</td></tr>
+            </table>
+            <p>※ 행낭 마지막 접수 시간(12시55분) 이후 접수 건은 다음날 발송</p>
+
+            <h2>등기 서비스</h2>
+            <div class="info-box">
+                <i class="fas fa-envelope-open-text"></i>
+                <div>등기 품의 결재 작성/완료 → 해당 품의 출력 → 북측 업무지원센터 방문 → 등기물품 전달<br>
+                ※ 등기 발송시간: 당일 <strong>14시 50분</strong> (이후 접수 시 다음날 발송)<br>
+                ※ 빠른 등기 다음날 도착, 일반 등기 2~3일 소요<br>
+                ※ CC(참조자)에 <strong>'jungwon1.yeom@lgepartner.com'</strong> 반영 必</div>
+            </div>
+
+            <h2>시료/자재 통문</h2>
+            <ul>
+                <li>남측 업무지원센터 방문하여 근무자에게 지원 요청 (사무실 이사에 한해 지원)</li>
+                <li>당일 발송 가능: 평택 12시55분 이전 / 인천 14시35분 이전 접수 건</li>
+                <li>마감시간 이후 접수 건은 명일 발송</li>
+            </ul>
+
+            <h2>편의점 택배</h2>
+            <p>GS25 편의점 택배 서비스를 이용할 수 있습니다.</p>
+
+            <h2>해외 발송</h2>
+            <p>📞 판토스: 2033-5604</p>
+        \`
+    },
+    {
+        id: 'life-security-detail',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '정보보안 (물리보안 상세)',
+        keywords: ['정보보안', '물리보안', 'Mobile On', '모바일온', 'X-ray', '보안검색', '통문', '출입권한', '제한구역', '실험실', 'Security Portal', '휴대기기', '홀로그램', '비정형품의', 'SLC', '보안서약', 'CCTV', 'ID카드', '반출입', '정보보호지원센터'],
+        content: \`
+            <h1>🔐 정보보안 (물리보안 상세)</h1>
+
+            <h2>보안검색존 안내</h2>
+            <ul>
+                <li>통문 장소 및 검색 장비는 <strong>각 동 1층</strong>에 구성 (동간 이동 시 B1층 또는 3층 연결 브릿지)</li>
+                <li>Mobile On 미 설치자 퇴실 시 알람 발생 → 보안 요원의 휴대기기 확인 요청 시 적극 협조</li>
+                <li>임산부 전용 퇴근 Gate 운영 (보안부서 사전 신청 必)</li>
+            </ul>
+
+            <h2>정보보호지원센터 주요 업무</h2>
+            <table>
+                <tr><th>업무</th></tr>
+                <tr><td>출입 관련 문의</td></tr>
+                <tr><td>정보자산 및 고정자산 반/출입</td></tr>
+                <tr><td>정보자산 바코드 등록</td></tr>
+                <tr><td>휴대기기 등록</td></tr>
+                <tr><td>미등록 물품 반출</td></tr>
+                <tr><td>임직원/협력업체 보안서약 (퇴사/입퇴실)</td></tr>
+                <tr><td>ID카드 발급 및 케이스 교체</td></tr>
+                <tr><td>보안라벨 재 부착</td></tr>
+                <tr><td>핸드폰 카메라 봉인</td></tr>
+            </table>
+            <p>📞 정보보호지원센터: <strong>2033-1144 / 1086</strong></p>
+
+            <h2>개인 휴대기기 등록</h2>
+            <div class="info-box">
+                <i class="fas fa-mobile-alt"></i>
+                <div>
+                    <strong>경로:</strong> New Security Portal > 자산 > 개인휴대기기등록 > 상세내용 작성 및 요청 > 정보보호지원센터 방문<br>
+                    개인 휴대기기 등록하여 <strong>홀로그램 스티커 부착</strong> 후 지참 가능
+                </div>
+            </div>
+
+            <h2>제한구역/실험실 출입 권한 신청</h2>
+            <h3>W동</h3>
+            <div class="info-box">
+                <i class="fas fa-key"></i>
+                <div>
+                    <strong>경로:</strong> New Security Portal > 기타 > 비정형품의 → 양식선택 → "출입권한" 검색하여 해당 품의 양식 선택<br><br>
+                    ※ ID Card 단말기 위치(건물동/층)와 단말기명 확인 (상단 라벨)<br>
+                    ※ 실험실/Task Room의 경우 현업 관리자에게 문의 후 진행<br>
+                    ※ 공용구역(B1F~1F)은 임직원 권한 신청 불필요<br>
+                    ※ 타 본부/제한구역(실험실 등)은 별도 출입권한 신청 필요
+                </div>
+            </div>
+
+            <h3>SLC동</h3>
+            <div class="info-box">
+                <i class="fas fa-key"></i>
+                <div>
+                    <strong>경로:</strong> New Security Portal > 기타 > 비정형품의 → [사이언스파크][출입]SLC출입제한구역 출입권한 신청<br>
+                    ※ 층/실험실명 정확히 기재<br>
+                    ※ 품의 완료 후 SLC 1층에서 생체정보 등록 필요
+                </div>
+            </div>
+
+            <div class="warning-box">
+                <i class="fas fa-shield-alt"></i>
+                <div>※ 비인가 지역 출입 시도는 모니터링되며, 우회 경로 보안 위반 시 권한 제한 및 보안 Penalty 부여<br>
+                ※ 허가 받은 출입자 외 권한 없는 동행인의 출입 불허 (적발 시 보안 Penalty 부과 및 권한 회수)<br>
+                ※ 문의: 유선 02-2033-1144(정보보호지원센터) / 1113(출입안내데스크) / 메일 <a href="mailto:mgaccess@lge.com" style="color:#c97bb6;">mgaccess@lge.com</a></div>
+            </div>
+
+            <h2>Mobile On 설치</h2>
+            <p>📱 <a href="http://mobileonv3.lge.com" target="_blank" style="color:#c97bb6;">http://mobileonv3.lge.com</a> URL 접속 → 앱 다운 설치 or 1544-5770 Help desk 설치앱 SMS 요청</p>
+            <p>상세 설치 가이드: sp.lge.com 접속 → 우측 상단 정보보호가이드 → 모바일 보안 → Mobile ON 설치가이드&FAQ</p>
+        \`
+    },
+    {
+        id: 'life-emergency',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '응급의료기기 / 비상상황 행동요령',
+        keywords: ['응급', '의료', 'AED', 'CPR', '심폐소생술', '자동심장충격기', '비상', '화재', '대피', '비상대피', '소방', '관제센터', '1119', '피난', '비상계단', '집결지', 'LG아트센터'],
+        content: \`
+            <h1>🚨 응급의료기기 / 비상상황 행동요령</h1>
+
+            <h2>🏥 응급의료기기 설치위치</h2>
+            <ul>
+                <li><strong>자동심장충격기(AED):</strong> W1동~W10동 로비 및 각층 통로 (93개소), SLC동 B2F 방재실 통로 및 4층 (2개소), 1,2단계 B2,3F (12개소), B3F 수변전실 (6개소)</li>
+                <li><strong>인공소생기:</strong> W1동~W10동 1F 로비 안내데스크 (8개소)</li>
+                <li><strong>휠체어:</strong> W5동, W6동 1F 자판기, 건강관리실 (3개소)</li>
+            </ul>
+
+            <div class="warning-box">
+                <i class="fas fa-phone-alt"></i>
+                <div><strong>응급 상황 발생 시 119 우선 신고 후</strong> 아래 연락처로 연락<br>
+                📞 통합관제센터: <strong>02-2033-1119</strong></div>
+            </div>
+
+            <h2>🔥 비상상황 발생시 행동요령</h2>
+            <h3>통합관제센터</h3>
+            <ul>
+                <li>위치: W4동 M층</li>
+                <li>인력운영: 평일/휴일 주·야간 8명 (교대근무, 24시간 감시체계)</li>
+                <li>Safety Police: 사업장 내 위험요인·안전감시활동</li>
+                <li>자위소방대: 화재 시 초기대응, 피난유도</li>
+            </ul>
+
+            <h3>비상대피 집결지</h3>
+            <p>🏃 <strong>LG아트센터 광장</strong> (LG사이언스파크 마주보는 방면 광장)</p>
+
+            <h3>층별 대피 요령</h3>
+            <table>
+                <tr><th>구역</th><th>대피 방법</th></tr>
+                <tr><td><strong>지하1층</strong></td><td>피난유도등 표시를 따라 가까운 비상계단 또는 선큰을 통해 지상 대피 → 집결지</td></tr>
+                <tr><td><strong>지하2,3층 주차장</strong></td><td>피난유도선 및 표지를 따라 가까운 비상계단 → 지상 대피 → 집결지</td></tr>
+                <tr><td><strong>1층</strong></td><td>피난유도 표지를 따라 로비 또는 외부 Emergency Exit → 바깥 대피 → 집결지</td></tr>
+                <tr><td><strong>2층~최상층</strong></td><td>피난유도 표지를 따라 비상계단 → 1층으로 대피 → 집결지</td></tr>
+                <tr><td><strong>옥상층</strong></td><td>피난유도 표지를 따라 가까운 비상계단 → 지상 대피 → 집결지</td></tr>
+            </table>
+
+            <div class="warning-box">
+                <i class="fas fa-exclamation-circle"></i>
+                <div>
+                    ⚠️ 화재 시 비상구는 자동으로 개방됩니다 (잠금해제)<br>
+                    ⚠️ <strong>엘리베이터 절대 탑승 금지</strong><br>
+                    📞 통합관제센터: <strong>02-2033-1119</strong>
+                </div>
+            </div>
+        \`
+    },
+    {
+        id: 'life-contacts',
+        category: 'life-support',
+        categoryName: '생활 지원',
+        title: '업무지원 부서 연락처 (Contact Point)',
+        keywords: ['연락처', '담당자', '총무팀', '안전보건', '정보보호', '환경시설', 'Contact', '문의', '전화번호', '내선', '채승우', '이배성', '홍의표', '신동근', '황선흥', '이원영', '박형기', '홍재화', '장준혁'],
+        content: \`
+            <h1>📞 업무지원 부서 연락처</h1>
+
+            <h2>총무팀</h2>
+            <table>
+                <tr><th>업무명</th><th>담당자</th></tr>
+                <tr><td>의전/행사 (공통행사, VS, HS, ES, MS, 고가혁 등)</td><td>채승우 책임</td></tr>
+                <tr><td>식당/식대 (아워홈/풀무원)</td><td>이배성 책임</td></tr>
+                <tr><td>CJ식당</td><td>홍의표 책임</td></tr>
+                <tr><td>통근버스, 셔틀버스 관리</td><td>홍재화 책임</td></tr>
+                <tr><td>기획, 인천사업장 관리</td><td>정희석 책임</td></tr>
+                <tr><td>어린이집, 예산, 배부비율</td><td>조인애 책임</td></tr>
+                <tr><td>레이아웃(W2~7동), 회의실 관리</td><td>신동근 책임</td></tr>
+                <tr><td>레이아웃(W1, W8~10동), 부착물 관리</td><td>황선흥 책임</td></tr>
+                <tr><td>가구 집기 지원, 수선 문의</td><td>신동근 책임</td></tr>
+                <tr><td>미화/피트니스</td><td>홍재화 책임</td></tr>
+                <tr><td>차량 및 기사관리</td><td>채승우 책임</td></tr>
+                <tr><td>법인/유선회선, 인장, 스포츠티켓, 게시물</td><td>이원영 책임</td></tr>
+                <tr><td>하누리Café, 입점업체 관리(편의점, 은행 등)</td><td>박형기 책임</td></tr>
+                <tr><td>주차 관리 (주차권 배부, 기준 수립 등)</td><td>홍의표 책임</td></tr>
+                <tr><td>다이닝홀</td><td><a href="mailto:dininghall@lge.com" style="color:#c97bb6;">dininghall@lge.com</a> / 2033-1185</td></tr>
+                <tr><td>ISC 글로벌라운지 예약</td><td><a href="https://portal.lgsp.co.kr" target="_blank" style="color:#c97bb6;">portal.lgsp.co.kr</a> / 02-6987-1392</td></tr>
+            </table>
+
+            <h2>안전/보건팀 (W4동 1층)</h2>
+            <table>
+                <tr><th>업무명</th><th>담당자</th></tr>
+                <tr><td>공사안전관리, Safety Walk, SHEE Index</td><td>김정민 책임</td></tr>
+                <tr><td>해외법인 지원, 사전 심사 관리</td><td>김재호 책임</td></tr>
+                <tr><td>안전사고/산업재해 관리, 중처법</td><td>윤대찬 책임</td></tr>
+                <tr><td>인천사업장 중처법, 해외법인 지원</td><td>류태영 책임</td></tr>
+                <tr><td>인천사업장 안전관리기획, ISO 인증</td><td>구자경 책임</td></tr>
+                <tr><td>소방안전 (소방공사, 화재예방, 비상대응 훈련)</td><td>조휘래 선임</td></tr>
+                <tr><td>산업보건, 방사선 안전관리, 안전교육</td><td>최선우 선임</td></tr>
+                <tr><td>안전문화, 위험성평가, ISO인증</td><td>안홍준 선임</td></tr>
+                <tr><td>연구실 안전관리, 안전체험관 운영</td><td>강현민 사원</td></tr>
+                <tr><td>건강관리실 (산업보건, 건강검진, 응급대응)</td><td>김서윤 책임간호사 / 정주리 선임간호사 / 김지혜 간호사</td></tr>
+            </table>
+
+            <h2>정보보호 (W4동 1층)</h2>
+            <table>
+                <tr><th>업무명</th><th>담당자</th></tr>
+                <tr><td>반출입/CCTV/방문예약/ID카드/물리보안</td><td>장준혁 책임 / 김영상 선임</td></tr>
+                <tr><td>무선보안(WIPS), Mobile ON, 외부망</td><td>김용태 책임</td></tr>
+                <tr><td>Privacy-I, 비업무 트래픽, 사이버 보안</td><td>손경태 책임</td></tr>
+                <tr><td>MAC DLP</td><td>김영상 선임</td></tr>
+                <tr><td>정보보안 인증, 고객사 보안 대응, VPN</td><td>김택영 책임</td></tr>
+                <tr><td>TSS활동, 보안교육/홍보</td><td>김양훈 책임</td></tr>
+                <tr><td>개인정보보호</td><td>권기대 책임</td></tr>
+                <tr><td>미환입 정보/고정 자산 관리</td><td>이혜지 주임</td></tr>
+            </table>
+            <p>📞 정보보호지원센터 (ID카드/모바일온 스티커 발급 등): <strong>2033-1144 / 1086</strong></p>
+
+            <h2>환경시설팀</h2>
+            <table>
+                <tr><th>업무명</th><th>연락처/담당자</th></tr>
+                <tr><td>조명제어, 냉난방 및 시설물 보수요청</td><td>2033-1119</td></tr>
+                <tr><td>주차정기권 변경/양도, 일일주차 문의</td><td>2033-1122</td></tr>
+                <tr><td>회의실 예약, Welcome Board</td><td>2033-1229</td></tr>
+                <tr><td>해외발송 (판토스)</td><td>2033-5604</td></tr>
+                <tr><td>스팀세차 (하누리)</td><td>2033-4855</td></tr>
+                <tr><td>전기설비, 승강기, 에너지관리</td><td>장우석 책임</td></tr>
+                <tr><td>통신/방송 설비관리</td><td>최우석 책임</td></tr>
+                <tr><td>건축/기계/Lay-out</td><td>백석현 선임</td></tr>
+                <tr><td>화학물질, 회의장비(빔/화상) 관리</td><td>장석원 선임</td></tr>
+                <tr><td>고압가스 안전관리, 폐기물관리</td><td>박형민 선임</td></tr>
+                <tr><td>환경관리(대기/수질), 환경설비</td><td>전보현 선임</td></tr>
+                <tr><td>개인용 전기/전열기기 신청/승인</td><td>이아현 사원</td></tr>
+            </table>
+        \`
     }
 ];
 
@@ -668,7 +1367,7 @@ const categories = {
         name: 'W동',
         icon: 'fas fa-building',
         emoji: '🏢',
-        items: ['w-access', 'w-classroom', 'w-security', 'w-network']
+        items: ['w-access', 'w-classroom', 'w-security', 'w-network', 'w-facilities', 'w-commute', 'w-daycare', 'w-parking']
     },
     'isc': {
         name: 'ISC',
@@ -693,6 +1392,12 @@ const categories = {
         icon: 'fas fa-map-marked-alt',
         emoji: '🗺️',
         items: ['magok-life']
+    },
+    'life-support': {
+        name: '생활 지원',
+        icon: 'fas fa-hands-helping',
+        emoji: '🛠️',
+        items: ['life-meeting-detail', 'life-posting', 'life-carwash', 'life-sandy', 'life-mail', 'life-security-detail', 'life-emergency', 'life-contacts']
     }
 };
 

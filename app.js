@@ -121,13 +121,6 @@ const data = [
                 <tr><td><strong>W10동 3F 교육장</strong></td><td><a href="files/강의장 도면_10동 3층.pdf" target="_blank" style="color:#c97bb6;font-weight:500;">📄 도면 보기</a></td></tr>
             </table>
 
-            <h2>📞 강의장 예약 문의</h2>
-            <table>
-                <tr><th>교육장</th><th>문의처</th></tr>
-                <tr><td><strong>W2동 1층, W10동 3층</strong></td><td>한지영 사원 (<a href="mailto:jiyoung.han@lgepartner.com" style="color:#c97bb6;">jiyoung.han@lgepartner.com</a>)<br>전수현 선임 (<a href="mailto:suhyun.jeon@lgepartner.com" style="color:#c97bb6;">suhyun.jeon@lgepartner.com</a>)</td></tr>
-                <tr><td><strong>그 외 교육장</strong></td><td>마곡공용회의실 (<a href="mailto:mgmr@lge.com" style="color:#c97bb6;">mgmr@lge.com</a>)</td></tr>
-            </table>
-
             <div class="info-box">
                 <i class="fas fa-file-alt"></i>
                 <div>📄 <a href="files/마곡LGSP W2동, W10동 강의장 예약 매뉴얼.pdf" target="_blank" style="color:#c97bb6; font-weight:bold;">마곡LGSP W2동, W10동 강의장 예약 매뉴얼.pdf 보기</a></div>
@@ -136,6 +129,13 @@ const data = [
                 <img src="images/W10동 303호 강의장 이용 방법.png" alt="W10동 303호 강의장 이용 방법" style="width:100%;max-width:700px;border-radius:14px;border:1px solid #e8a0bf;box-shadow:0 2px 12px rgba(0,0,0,0.06);margin-bottom:8px;" />
                 <div style="font-size:13px;color:#a898ae;margin-top:6px;">W10동 303호 강의장 이용 방법</div>
             </div>
+
+            <h2>📞 강의장 예약 문의</h2>
+            <table>
+                <tr><th>교육장</th><th>문의처</th></tr>
+                <tr><td><strong>W2동 1층, W10동 3층</strong></td><td>한지영 사원 (<a href="mailto:jiyoung.han@lgepartner.com" style="color:#c97bb6;">jiyoung.han@lgepartner.com</a>)<br>전수현 선임 (<a href="mailto:suhyun.jeon@lgepartner.com" style="color:#c97bb6;">suhyun.jeon@lgepartner.com</a>)</td></tr>
+                <tr><td><strong>그 외 교육장</strong></td><td>마곡공용회의실 (<a href="mailto:mgmr@lge.com" style="color:#c97bb6;">mgmr@lge.com</a>)</td></tr>
+            </table>
         `
     },
     {

@@ -153,7 +153,10 @@ const data = [
 
             <div class="info-box">
                 <i class="fas fa-file-alt"></i>
-                <div>📄 <a href="files/마곡LGSP W2동, W10동 강의장 예약 매뉴얼.pdf" target="_blank" style="color:#c97bb6; font-weight:bold;">마곡LGSP W2동, W10동 강의장 예약 매뉴얼.pdf 보기</a></div>
+                <div>
+                    📄 <a href="files/마곡LGSP W2동, W10동 강의장 예약 매뉴얼.pdf" target="_blank" style="color:#c97bb6; font-weight:bold;">마곡LGSP W2동, W10동 강의장 예약 매뉴얼.pdf 보기</a><br>
+                    🖼️ <a href="images/W10동 303호 강의장 이용 방법.png" target="_blank" style="color:#c97bb6; font-weight:bold;">W10동 303호 강의장 이용 방법 이미지 보기</a>
+                </div>
             </div>
         `
     },
